@@ -1,0 +1,10 @@
+Figure;Part;Sample size;Normality test;Normality test results;Test;Exact P-value, F-value with degree of freedom for ANOVAs, t-value with degree of freedom for t-tests
+2;b;"n = 4 FD mice; n = 4; Ref mice; n = 4 Lep mice.";Shapiro-Wilk test;Pass;one-way RM ANOVA followed with multiple comparisons test corrected by Dunnett test;"ANOVA table: F (2, 9) = 11.02, P=0.0038. Multiple comparisons test corrected by Dunnett test: FD vs Ref, P=0.0132; FD vs Lep, P=0,0028."
+2;d;"n = 4 FD mice; n = 4; Ref mice; n = 4 Lep mice.";Shapiro-Wilk test;Pass;one-way RM ANOVA followed with multiple comparisons test corrected by Dunnett test;"ANOVA table: F (2, 9) = 6.507, P=0.0179. Multiple comparisons test corrected by Dunnett test: FD vs Ref, P=0.0239; FD vs Lep, P=0,0206."
+2;f;n =17 cells from 4 mice;Shapiro-Wilk test;No;Friedman test followed with multiple comparisons test corrected by Dunn's test;"Multiple comparisons test corrected by Dunn's test: leptin vs pre:, P=0.0157; leptin vs washout, P=0.0258."
+2;g;n =17 cells from 4 mice;Shapiro-Wilk test;No;Friedman test followed with multiple comparisons test corrected by Dunn's test;Multiple comparisons test corrected by Dunn's test: leptin vs pre:, P<0.0001 leptin vs washout, P=0.0003.
+2;i;n=8 mice.;Shapiro-Wilk test;NO;Paired Wilcoxon test;"Chow vs tube P=0.0078; Chow vs Peanut butter, P=0.0078."
+2;j;n=8 mice.;Shapiro-Wilk test;Yes for Tube and Chow, NO for Penut butter group;Paired t test or Wilcoxon test;"Chow vs Tube, P=0.8043, t=0.2574, df=7;  Chow vs Peanut butter, P=0.0078."
+2;l;n=8 mice.;Shapiro-Wilk test;Pass;Paired t test;P=0.0035, t=4.304, df=7.
+2;m;n=8 mice.;Shapiro-Wilk test;Pass;Paired t test;p=0.0019, t=4.846, df=7.
+2;o;n=8 mice.;Shapiro-Wilk test;Yes for baseline, caged chow(500-600s) and free chow (500-60s), NO for caged chow (0-100) and free chow (0-100);Paired t test or Wilcoxon test;"Caged chow (0-100) vs baseline, P=0.0078; Caged chow(0-100s) vs free chow(0-100s), P=0.0156; Caged(500-600s) vs free (500-600s), P=0.0307,t=2.7, df=7."

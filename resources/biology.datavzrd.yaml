@@ -1,0 +1,846 @@
+name: Leptin-activated hypothalamic BNC2 neurons acutely suppress food intake
+datasets:
+  2o.csv:
+    path: biology/f2/2o.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  2b.csv:
+    path: biology/f2/2b.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  2m.csv:
+    path: biology/f2/2m.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  2g.csv:
+    path: biology/f2/2g.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  2l.csv:
+    path: biology/f2/2l.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  2f.csv:
+    path: biology/f2/2f.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Statistical summary.csv:
+    path: biology/f2/Statistical summary.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  f1.csv:
+    path: biology/f1.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  2d.csv:
+    path: biology/f2/2d.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  2j.csv:
+    path: biology/f2/2j.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  2i.csv:
+    path: biology/f2/2i.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+max-in-memory-rows: 20000
+views:
+  2b.csv:
+    hidden: false
+    dataset: 2b.csv
+    page-size: 20
+    render-table:
+      columns:
+        Mouse:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        FD:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Ref:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Leptin:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  2l.csv:
+    hidden: false
+    dataset: 2l.csv
+    page-size: 20
+    render-table:
+      columns:
+        Ms6:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Ms8:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Ms2:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Ms4:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Ms3:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Ms1:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Ms5:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Time:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Ms7:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  2g.csv:
+    hidden: false
+    dataset: 2g.csv
+    page-size: 20
+    render-table:
+      columns:
+        pre:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        leptin:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Cell:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        washout:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  2f.csv:
+    hidden: false
+    dataset: 2f.csv
+    page-size: 20
+    render-table:
+      columns:
+        pre:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        leptin:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Cell:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        washout:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Statistical summary.csv:
+    hidden: false
+    dataset: Statistical summary.csv
+    page-size: 20
+    render-table:
+      columns:
+        Part:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Test:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Normality test:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Sample size:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Exact P-value, F-value with degree of freedom for ANOVAs, t-value with degree of freedom for t-tests":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Normality test results:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Figure:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: viridis
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  2d.csv:
+    hidden: false
+    dataset: 2d.csv
+    page-size: 20
+    render-table:
+      columns:
+        FD:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Mouse:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Ref:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Leptin:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  2o.csv:
+    hidden: false
+    dataset: 2o.csv
+    page-size: 20
+    render-table:
+      columns:
+        Mouse:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Free chow (500-600s):
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Free chow (0-100s):
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        caged chow (500-600s):
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        caged chow (0-100s):
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Baseline:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  f1.csv:
+    hidden: false
+    dataset: f1.csv
+    page-size: 20
+    render-table:
+      columns:
+        Bnc2-Lepr:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Bnc2-Slc32a1:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Mouse:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Bnc2-Agrp:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Bnc2-Pomc:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  2i.csv:
+    hidden: false
+    dataset: 2i.csv
+    page-size: 20
+    render-table:
+      columns:
+        Mouse:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Fast_penut butter:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Fast_chow:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Fast_tube:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  2j.csv:
+    hidden: false
+    dataset: 2j.csv
+    page-size: 20
+    render-table:
+      columns:
+        Fed_chow:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Fed_tube:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Fed_penut butter:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Mouse:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  2m.csv:
+    hidden: false
+    dataset: 2m.csv
+    page-size: 20
+    render-table:
+      columns:
+        MS7:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Time:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        MS1:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        MS6:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        MS2:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        MS3:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        MS4:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        SM8:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        MS5:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+webview-controls: false

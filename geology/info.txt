@@ -1,0 +1,21 @@
+
+https://www.nature.com/articles/s41586-024-08231-0#MOESM4
+
+Extended Data Fig. 1: Result of intrusion model on Sm-Nd ages.
+
+From: Tidally driven remelting around 4.35 billion years ago indicates the Moon is old
+
+Extended Data Fig. 1
+a) A realization of the same thermal model as in Fig. 3 but with δ = 4 km (intrusions concentrated towards the base of the crust). The red line shows the maximum temperature experienced at each depth. The green boxes show where intrusions are added. The mid-crust has regions that are reset (maximum temperature exceeds Sm-Nd blocking temperature) but are not actually intruded. The blocking temperature of the Sm-Nd system in plagioclase is from ref. 70. b) Fraction of crust reset but not intruded as a function of scale height δ and basal heat flux Fb.
+
+Extended Data Fig. 2: Sensitivity of zircon results to parameter variations.
+
+From: Tidally driven remelting around 4.35 billion years ago indicates the Moon is old
+
+Extended Data Fig. 2
+a) Fraction of zircons with Pb-Pb ages 3-6 Myr (i.e. as the heating episode ends) (red line) and fraction with Pb-Pb ages that are not reset (black line) as a function of the intrusion scale height δ, based on 30 realizations with Fb = 50 mWm−2 and Δd = 2 km. The peak in ages between 3-6 Myr becomes more pronounced as intrusions become more widely distributed throughout the crust (larger δ). b) As for a) but exploring the zircon fraction as a function of basal heat flux Fb and intrusion thickness Δd. Here δ = 20 km. Calculation techniques are described in Methods.
+
+Extended Data Fig. 3: Sensitivity of thermally reset crust to duration of heating event.
+
+Extended Data Fig. 3
+Sensitivity of fraction of crust reset (in terms of Sm-Nd ages) and not intruded, as a function of the duration of the heating event. The parameter δ is the scale height of the intrusions (small δ means intrusions are more clustered towards the base of the crust).

@@ -1,0 +1,36 @@
+https://www.nature.com/articles/s41586-024-08108-2#Abs1
+
+Extended Data Fig. 1: SnRNA-seq analysis of mouse ARC neurons.
+
+From: Leptin-activated hypothalamic BNC2 neurons acutely suppress food intake
+
+Extended Data Fig. 1
+a, Single-cell UMAP plot of the male ARC (N = 6 adult WT mice). b, Violin plot showing known markers of different cell types: neurons (Tubb3, Snap25, Syt1, Elavl4), tanycytes (Rax), ependymocytes (Ccdc153), oligodendrocyte cells (Mag, Olig1, Cspg4, Cd9, Pllp), macrophages (Aif1, C1qa), endothelial cells (Slco1c1, Cldn5), mural cells (Mustn1), astrocyte (Gfap, Sox9), vascular and leptomeningeal cells (Lum), pituitary cells (Tshb), pars tuberalis cells (Cck), ependymal cells (Vim). Clusters 20/21/23/24 are non-neuronal clusters. c, Dot plot displaying the expression of cluster-specific marker genes (identified in this study) across neuronal clusters with the ARC from Campbell et al.22.
+
+Extended Data Fig. 2: Generation of BNC2-P2A-iCre knockin mouse line.
+
+From: Leptin-activated hypothalamic BNC2 neurons acutely suppress food intake
+
+Extended Data Fig. 2
+a, Schematic of the BNC2-P2A-iCre locus. b, Sequence information of gRNAs and lssDNA. c, Genomic PCR using specific primers (N = 3 mice). d, Cre expression was assessed using a Cre-dependent mCherry viral construct. Colocalization with endogenous Bnc2 mRNA was confirmed through RNA ISH (N = 3 mice). Scale bar, 20 μm. Illustrations in a and c were created using BioRender (https://biorender.com).
+
+Extended Data Fig. 3: Activation of BNC2 neurons by leptin.
+
+From: Leptin-activated hypothalamic BNC2 neurons acutely suppress food intake
+
+Extended Data Fig. 3
+a, Representative images of a patched GFP-labeled BNC2 neuron. b, Spontaneous APs of BNC2 neurons in the ARC from ad-libitum-fed adult male BNC2-Cre mice (injected with DIO-GFP). Leptin was added to the bath solution at the indicated time window. c,d, Spontaneous AP frequency (c) and RMP (d) of BNC2 neurons before, during, and after leptin application (N = 12 cells from 4 mice, Friedman test or one-way ANOVA). e, Percentage of leptin-responsive BNC2 neurons under the overnight fasting and ad-libitum-fed conditions. Data are presented as mean ± SEM. *p < 0.05; **p < 0.01. Statistical details in Source Data.
+
+Extended Data Fig. 4: Rapid responses of BNC2 neurons to food cues.
+
+From: Leptin-activated hypothalamic BNC2 neurons acutely suppress food intake
+
+Extended Data Fig. 4
+a-c, Heatmaps of normalized ΔF/F in individual overnight-fasted male mice aligned to the presentation of an inedible tube (a), chow (b), or peanut butter (c). d-f, Heatmaps of normalized ΔF/F in individual ad-libitum-fed male mice aligned to the presentation of an inedible tube (d), chow (e), or peanut butter (f). g,h, Heatmaps of normalized ΔF/F in individual overnight-fasted male mice aligned to the presentation of chow inside (g) or outside (h) the container. i,k, Individual calcium trace of an overnight-fasted naive male mouse presented with novel peanut butter (i) or sucrose tablets (k). j,l, Quantification of fluorescence changes before and after the presentation of peanut butter (j) or sucrose tablets (l), as well as during consumption (N = 4 mice, paired Student’s t-test). m-p, Recordings from overnight-fasted male mice presented with chow for 2 or 10 min. m, Average calcium signal traces aligned to the time of presentation. n, Quantification of fluorescence changes in the indicated timeframes shown in m (N = 8 mice per group, paired Student’s t-test). o,p, Heatmaps of normalized ΔF/F in individual overnight-fasted male mice aligned to the presentation of chow for 2 min (o) or 10 min (p). Data are presented as mean ± SEM. ns, not significant; *p < 0.05; **p < 0.01. Statistical details in Source Data.
+
+Extended Data Fig. 5: Rapid satiety driven by BNC2 neurons.
+
+From: Leptin-activated hypothalamic BNC2 neurons acutely suppress food intake
+
+Extended Data Fig. 5
+a, Representative image showing bilateral hM3Dq-mcherry expressing (red) in ARC BNC2 neurons with DAPI staining (blue) (N = 6 mice). Scale bar, 100 μm. b, Representative image showing unilateral ChR2-GFP expression in ARC BNC2 neurons and the optical fibre implant site (N = 12 mice). c, d, Food intake (c) and body weight change at 3 h (d) in female mice receiving PBS or CNO injection at the onset of the night dark phase (N = 4 mCherry-injected mice, N = 5 hM3Dq-injected mice, two-way ANOVA). e, f, Food intake (e) and body weight change at 3 h (f) in female mice receiving PBS or CNO injection during the daytime (N = 4 mCherry-injected mice, N = 4 hM4Di-injected mice, two-way ANOVA). g, Distance traveled before, during, and after laser stimulation in overnight-fasted male mice (N = 4 mice per group, two-way ANOVA). h, Heatmaps of time spent in each chamber during the initial phase and the closed-loop paired phase in sated adult male BNC2-Cre mice injected with GFP or ChR2. Data are presented as mean ± SEM. ns, not significant. **p < 0.01; ****p < 0.0001. Statistical details in Source Data.
