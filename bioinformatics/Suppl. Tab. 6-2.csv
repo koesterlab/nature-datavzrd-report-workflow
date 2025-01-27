@@ -1,5 +1,5 @@
 gene_name;Hnf4a_push_corr;Hnf4a_push_pval;Hnf4a_push_qval;Hnf4a_push_ci_low;Hnf4a_push_ci_high;references
-Afp;0.41522;0;0;0.412952;0.417483;references
+Afp;0.41522;0;0;0.412952;0.417483;https://maayanlab.cloud/Harmonizome/gene_set/HNF4A/CHEA+Transcription+Factor+Targets
 Alb;0.405604;0;0;0.403315;0.407888;https://maayanlab.cloud/Harmonizome/gene_set/HNF4A/CHEA+Transcription+Factor+Targets
 Lgals2;0.388928;0;0;0.386602;0.391248;https://maayanlab.cloud/Harmonizome/gene_set/HNF4A/CHEA+Transcription+Factor+Targets
 Lgals4;0.36824;0;0;0.365872;0.370603;https://maayanlab.cloud/Harmonizome/gene_set/HNF4A/CHEA+Transcription+Factor+Targets
