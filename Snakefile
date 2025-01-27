@@ -1,4 +1,4 @@
-DISCIPLINES = ["biology"]
+DISCIPLINES = ["biology", "bioinformatics"]
 
 rule all:
     input:

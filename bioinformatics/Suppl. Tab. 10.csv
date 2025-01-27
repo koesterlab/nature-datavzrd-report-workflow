@@ -1,0 +1,16 @@
+Cell type;marker genes
+Mature Acinar;Reep5, Cpa1, Cel, Rbpjl, Ptf1a, Rbpjl
+Imm. Acinar;Ptf1a, Rbpjl
+Proliferating Ductal;Mki67, Kif11, Ccdc34, Bicc1, Sox9, Anxa2, Spp1
+Ductal ;Nav2, Cadm1, Bicc1, Sox9, Anxa2, Spp1
+Ngn3 low;Neurog3 (low), Gadd45a, Btbd17, Hes6
+Ngn3 high;Neurog3 (high), Gadd45a, Btbd17, Hes6
+Fev+;Fev, Cck, Vwa5b2, Tox3, Neurod1
+Fev+ Delta;Fev, Hhex, Dctn3, Yipf4
+Epsilon progenitors;Ppp3ca, Pclo, Ubl3
+Fev+ Alpha;Arx, Zwint, Fev
+Fev+ Beta;Npepl1, Cox7a2l, Fev
+Alpha;Gcg
+Beta;Ins2
+Delta;Sst
+Epsilon;Ghrl

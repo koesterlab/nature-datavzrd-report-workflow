@@ -1,0 +1,20 @@
+Unnamed: 0;time pair;Developmental stage;tau_a;Found apoptotis rate (moscot);Target apoptotic range;cl-TOME apoptotis rate
+0;E3.5 --> E4.5;Pre-gastrulation;0.99;0.1485;10-15%;0.139
+1;E4.5 --> E5.25;Pre-gastrulation;0.98;0.1434;10-15%;0.235
+2;E5.25 --> E5.5;Pre-gastrulation;0.99;0.1002;10-15%;0.273
+3;E5.5 --> E6.25;Pre-gastrulation;0.9;0.1459;10-15%;0.238
+4;E6.25 --> E6.5;Pre-gastrulation;0.95;0.1456;10-15%;0.188
+5;E6.5 --> E6.75;Gastrulation;0.95;0.0473;4-6%;0.250
+6;E6.75 --> E7.0;Gastrulation;0.6;0.0424;4-6%;0.013
+7;E7.0 --> E7.25;Gastrulation;0.8;0.0562;4-6%;0.096
+8;E7.25 --> E7.5;Gastrulation;0.92;0.0522;4-6%;0.219
+9;E7.5 --> E7.75;Gastrulation;0.92;0.0457;4-6%;0.172
+10;E7.75 --> E8.0;Gastrulation;0.87;0.0460;4-6%;0.129
+11;E8.0 --> E8.25;Gastrulation;0.95;0.0483;4-6%;0.198
+12;E8.25 --> E8.5a;Gastrulation;0.93;0.0423;4-6%;0.201
+13;E8.5a --> E8.5b;Organogenesis;0.95;0.1614;-;0.414
+14;E8.5b --> E9.5;Organogenesis;0.98;0.0254;2-4%;0.383
+15;E9.5 --> E10.5;Organogenesis;0.65;0.0242;2-4%;0.042
+16;E10.5 --> E11.5;Organogenesis;0.8;0.0222;2-4%;0.083
+17;E11.5 --> E12.5;Organogenesis;0.87;0.0241;2-4%;0.145
+18;E12.5 --> E13.5;Organogenesis;0.88;0.0234;2-4%;0.109

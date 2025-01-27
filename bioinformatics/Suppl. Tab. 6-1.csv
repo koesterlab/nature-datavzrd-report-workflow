@@ -1,0 +1,11 @@
+gene_name;Liver_pull_corr;Liver_pull_pval;Liver_pull_qval;Liver_pull_ci_low;Liver_pull_ci_high;references
+Afp;0.59548;0;0;0.593469;0.597483;https://doi.org/10.1016/j.cell.2020.09.012
+Alb;0.577517;0;0;0.575441;0.579586;https://doi.org/10.1016/j.cell.2020.09.012
+Apoa2;0.534929;0;0;0.532705;0.537145;https://doi.org/10.1016/j.cell.2020.09.012
+Car2;0.523767;0;0;0.521506;0.52602;https://doi.org/10.1242/dev.174557
+Mt2;0.507893;0;0;0.505582;0.510197;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7642341/
+Trf;0.506352;0;0;0.504036;0.508661;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7414596/
+Gm45774;0.4971;0;0;0.494755;0.499438;
+Apoa1;0.49268;0;0;0.490321;0.495031;https://doi.org/10.1016/j.cell.2020.09.012
+Cpox;0.484279;0;0;0.481894;0.486655;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10036863/
+Rbp4;0.482769;0;0;0.48038;0.48515;https://doi.org/10.3389/fphys.2021.659977

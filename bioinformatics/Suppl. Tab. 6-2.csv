@@ -1,0 +1,11 @@
+gene_name;Hnf4a_push_corr;Hnf4a_push_pval;Hnf4a_push_qval;Hnf4a_push_ci_low;Hnf4a_push_ci_high;references
+Afp;0.41522;0;0;0.412952;0.417483;references
+Alb;0.405604;0;0;0.403315;0.407888;https://maayanlab.cloud/Harmonizome/gene_set/HNF4A/CHEA+Transcription+Factor+Targets
+Lgals2;0.388928;0;0;0.386602;0.391248;https://maayanlab.cloud/Harmonizome/gene_set/HNF4A/CHEA+Transcription+Factor+Targets
+Lgals4;0.36824;0;0;0.365872;0.370603;https://maayanlab.cloud/Harmonizome/gene_set/HNF4A/CHEA+Transcription+Factor+Targets
+Mt1;0.3572;0;0;0.354809;0.359585;https://maayanlab.cloud/Harmonizome/gene_set/HNF4A/CHEA+Transcription+Factor+Targets
+Apoa2;0.352602;0;0;0.350203;0.354997;https://maayanlab.cloud/Harmonizome/gene_set/HNF4A/CHEA+Transcription+Factor+Targets
+Cps1;0.350783;0;0;0.348381;0.353181;https://maayanlab.cloud/Harmonizome/gene_set/HNF4A/CHEA+Transcription+Factor+Targets
+Trf;0.348554;0;0;0.346147;0.350956;https://maayanlab.cloud/Harmonizome/gene_set/HNF4A/CHEA+Transcription+Factor+Targets
+Apoa1;0.341533;0;0;0.339113;0.343948;https://maayanlab.cloud/Harmonizome/gene_set/HNF4A/CHEA+Transcription+Factor+Targets
+Mt2;0.341186;0;0;0.338765;0.343602;https://maayanlab.cloud/Harmonizome/gene_set/HNF4A/CHEA+Transcription+Factor+Targets

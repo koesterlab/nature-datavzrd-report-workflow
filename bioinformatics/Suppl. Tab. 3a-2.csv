@@ -1,0 +1,20 @@
+Unnamed: 0;time pair;Developmental stage;tau_a;Found apoptotic ratio;Target apoptotic range
+0;E3.5 --> E4.5;Pre-gastrulation;0.97;0.1285;10-15%
+1;E4.5 --> E5.25;Pre-gastrulation;0.97;0.1313;10-15%
+2;E5.25 --> E5.5;Pre-gastrulation;0.988;0.1248;10-15%
+3;E5.5 --> E6.25;Pre-gastrulation;0.988;0.1495;10-15%
+4;E6.25 --> E6.5;Pre-gastrulation;0.97;0.1177;10-15%
+5;E6.5 --> E6.75;Gastrulation;0.9955;0.0543;4-6%
+6;E6.75 --> E7.0;Gastrulation;0.85;0.0447;4-6%
+7;E7.0 --> E7.25;Gastrulation;0.88;0.0445;4-6%
+8;E7.25 --> E7.5;Gastrulation;0.95;0.0500;4-6%
+9;E7.5 --> E7.75;Gastrulation;0.92;0.0498;4-6%
+10;E7.75 --> E8.0;Gastrulation;0.95;0.0589;4-6%
+11;E8.0 --> E8.25;Gastrulation;0.992;0.0482;4-6%
+12;E8.25 --> E8.5a;Gastrulation;0.98;0.0480;4-6%
+13;E8.5a --> E8.5b;Organogenesis;0.95;0.1996;-
+14;E8.5b --> E9.5;Organogenesis;0.975;0.0397;2-4%
+15;E9.5 --> E10.5;Organogenesis;0.85;0.0256;2-4%
+16;E10.5 --> E11.5;Organogenesis;0.9;0.0286;2-4%
+17;E11.5 --> E12.5;Organogenesis;0.95;0.0211;2-4%
+18;E12.5 --> E13.5;Organogenesis;0.93;0.0209;2-4%

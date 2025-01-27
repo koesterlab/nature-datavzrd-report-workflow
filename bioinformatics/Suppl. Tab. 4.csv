@@ -1,0 +1,629 @@
+Genes;PMID;Cell Type;Highly-Variable
+Ptf1a;PMID: 17202186;pancreas;No
+Pdx1;PMID: 17202186;pancreas;No
+Neurog3;PMID: 17202186;pancreas;No
+Nkx6-1;PMID: 17202186;pancreas;Yes
+Nkx2-2;PMID: 17202186;pancreas;Yes
+Tle3;PMID: 17202186;pancreas;No
+Slc2a2;PMID: 17202186;pancreas;No
+Tle1;PMID: 17202186;pancreas;No
+Tle2;PMID: 17202186;pancreas;No
+Mafa;PMID: 17202186;pancreas;No
+Mafb;PMID: 17202186;pancreas;Yes
+Neurog3;PMID: 15604203;pancreas;No
+Pdx1;PMID: 15604203;pancreas;No
+Slc2a2;PMID: 15604203;pancreas;No
+Iapp;PMID: 15604203;pancreas;No
+Gck;PMID: 15604203;pancreas;Yes
+Mnx1;PMID: 15604203;pancreas;Yes
+Hes1;PMID: 15604203;pancreas;No
+Neurod1;PMID: 15604203;pancreas;Yes
+Pax4;PMID: 15604203;pancreas;No
+Pax6;PMID: 15604203;pancreas;No
+Nkx2-2;PMID: 15604203;pancreas;Yes
+Nkx6-1;PMID: 15604203;pancreas;Yes
+Bhlha15;PMID: 15604203;pancreas;No
+Pdx1;PMID: 15298336;pancreas;No
+Nkx2-2;PMID: 15298336;pancreas;Yes
+Hnf1b;PMID: 15298336;pancreas;No
+Ptf1a;PMID: 15298336;pancreas;No
+Nkx6-1;PMID: 15298336;pancreas;Yes
+Mnx1;PMID: 15298336;pancreas;Yes
+Hhex;PMID: 15298336;pancreas;No
+Onecut1;PMID: 15298336;pancreas;Yes
+Foxa2;PMID: 15298336;pancreas;Yes
+Hes1;PMID: 15298336;pancreas;No
+Mnx1;PMID: 15298336;pancreas;Yes
+Nr5a2;PMID: 15298336;pancreas;Yes
+Neurod1;PMID: 15298336;pancreas;Yes
+Pax4;PMID: 15298336;pancreas;No
+Pax6;PMID: 15298336;pancreas;No
+Hnf4a;PMID: 15298336;pancreas;No
+Hnf1aPdx1;PMID: 15298336;pancreas;No
+Nkx2-2;PMID: 15298336;pancreas;Yes
+Hnf1b;PMID: 15298336;pancreas;No
+Ptf1a;PMID: 15298336;pancreas;No
+Nkx6-1;PMID: 15298336;pancreas;Yes
+Mnx1;PMID: 15298336;pancreas;Yes
+Hhex;PMID: 15298336;pancreas;No
+Onecut1;PMID: 15298336;pancreas;Yes
+Foxa2;PMID: 15298336;pancreas;Yes
+Hes1;PMID: 15298336;pancreas;No
+Mnx1;PMID: 15298336;pancreas;Yes
+Ptf1a;PMID: 15298336;pancreas;No
+Nr5a2;PMID: 15298336;pancreas;Yes
+Neurod1;PMID: 15298336;pancreas;Yes
+Pax4;PMID: 15298336;pancreas;No
+Pax6;PMID: 15298336;pancreas;No
+Hnf4a;PMID: 15298336;pancreas;No
+Hnf1a;PMID: 15298336;pancreas;Yes
+Irs2;PMID: 15298336;pancreas;Yes
+Foxo1;PMID: 15298336;pancreas;No
+Mafa;PMID: 15298336;pancreas;No
+Mafb;PMID: 15298336;pancreas;Yes
+Pklr;PMID: 15298336;pancreas;No
+Nr5a2;PMID: 25063451;pancreas;Yes
+Bhlha15;PMID: 25063451;pancreas;No
+Ptf1a;PMID: 25063451;pancreas;No
+Rbpjl;PMID: 25063451;pancreas;No
+Myc;PMID: 25063451;pancreas;No
+Gata4;PMID: 25063451;pancreas;Yes
+Btbd17;Moscot's pancreas multiome analysis;pancreas;Yes
+Cadm1;Moscot's pancreas multiome analysis;pancreas;Yes
+Ccdc34;Moscot's pancreas multiome analysis;pancreas;No
+Cck;Moscot's pancreas multiome analysis;pancreas;Yes
+Cel;Moscot's pancreas multiome analysis;pancreas;Yes
+Cox7a2l;Moscot's pancreas multiome analysis;pancreas;No
+Dctn3;Moscot's pancreas multiome analysis;pancreas;No
+Fev;Moscot's pancreas multiome analysis;pancreas;No
+Gadd45a;Moscot's pancreas multiome analysis;pancreas;Yes
+Gcg;Moscot's pancreas multiome analysis;pancreas;Yes
+Ghrl;Moscot's pancreas multiome analysis;pancreas;Yes
+Hes6;Moscot's pancreas multiome analysis;pancreas;Yes
+Hhex;Moscot's pancreas multiome analysis;pancreas;No
+Ins2;Moscot's pancreas multiome analysis;pancreas;No
+Kif11;Moscot's pancreas multiome analysis;pancreas;No
+Mki67;Moscot's pancreas multiome analysis;pancreas;No
+Nav2;Moscot's pancreas multiome analysis;pancreas;Yes
+Neurod1;Moscot's pancreas multiome analysis;pancreas;Yes
+Neurog3;Moscot's pancreas multiome analysis;pancreas;No
+Npepl1;Moscot's pancreas multiome analysis;pancreas;No
+Pclo;Moscot's pancreas multiome analysis;pancreas;No
+Ppp3ca;Moscot's pancreas multiome analysis;pancreas;No
+Ptf1a;Moscot's pancreas multiome analysis;pancreas;No
+Rbpjl;Moscot's pancreas multiome analysis;pancreas;No
+Reep5;Moscot's pancreas multiome analysis;pancreas;No
+Sox9;Moscot's pancreas multiome analysis;pancreas;No
+Spp1;Moscot's pancreas multiome analysis;pancreas;Yes
+Sst;Moscot's pancreas multiome analysis;pancreas;Yes
+Tox3;Moscot's pancreas multiome analysis;pancreas;Yes
+Ubl3Arx;Moscot's pancreas multiome analysis;pancreas;No
+Yipf4;Moscot's pancreas multiome analysis;pancreas;No
+Zwint;Moscot's pancreas multiome analysis;pancreas;No
+Reep5;PMID: 30254276;pancreas;No
+Btbd17;PMID: 30254276;pancreas;Yes
+Gng12;PMID: 30254276;pancreas;No
+Peg10;PMID: 30254276;pancreas;No
+Sst;PMID: 30254276;pancreas;Yes
+Ngn3;PMID: 30254276;pancreas;No
+Fev;PMID: 30254276;pancreas;No
+Pax4;PMID: 30254276;pancreas;No
+Cadm1;PMID: 18471525;pancreas;Yes
+Ngn3;PMID: 31160421;pancreas;No
+Sox9;PMID: 31160421;pancreas;No
+Nkx6-1;PMID: 31160421;pancreas;Yes
+Muc1;PMID: 31160421;pancreas;No
+Cdh1;PMID: 31160421;pancreas;No
+Neurod1;PMID: 31160421;pancreas;Yes
+Pax4;PMID: 31160421;pancreas;No
+Arx;PMID: 31160421;pancreas;No
+Hes6;PMID: 31160421;pancreas;Yes
+Fev;PMID: 31160421;pancreas;No
+Cck;PMID: 31160421;pancreas;Yes
+Btbd17;PMID: 31160421;pancreas;Yes
+Gadd45a;PMID: 31160421;pancreas;Yes
+Vwa5b2;PMID: 31160421;pancreas;No
+Tox3;PMID: 31160421;pancreas;Yes
+Dlk1;PMID: 31160421;pancreas;Yes
+Mdk;PMID: 31160421;pancreas;No
+Btf3;PMID: 31160421;pancreas;No
+Amotl2;PMID: 31160421;pancreas;No
+Cdkn1a;PMID: 31160421;pancreas;No
+Sox4;PMID: 31160421;pancreas;No
+Mfng;PMID: 31160421;pancreas;Yes
+Btg2;PMID: 31160421;pancreas;Yes
+Ppp1r14a;PMID: 31160421;pancreas;No
+Mtch1;PMID: 31160421;pancreas;No
+Numbl;PMID: 31160421;pancreas;No
+Hes6;PMID: 31160421;pancreas;Yes
+Cbfa2t3;PMID: 31160421;pancreas;Yes
+Rcor2;PMID: 31160421;pancreas;No
+Smarcd2;PMID: 31160421;pancreas;No
+Insm1;PMID: 31160421;pancreas;No
+Cbfa2t2;PMID: 31160421;pancreas;No
+Cpa1;PMID: 31160421;pancreas;No
+Myc;PMID: 31160421;pancreas;No
+Notch2;PMID: 31160421;pancreas;No
+Ptf1a;PMID: 31160421;pancreas;No
+Cpa1;PMID: 31160421;pancreas;No
+Cel;PMID: 31160421;pancreas;Yes
+Rbpjl;PMID: 31160421;pancreas;No
+Anxa2;PMID: 31160421;pancreas;No
+Neurog3;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Amotl2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Btbd17;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Gadd45a;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Sox4;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Gpx2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Cdkn1a;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Mtch1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Ppp1r14a;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Hes6;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Foxa3;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Rcor2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Cbfa2t3;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Cotl1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Smarcd2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Stard10;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Grasp;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Lingo1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Tmsb4x;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Cpt2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Sparc;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Mpzl1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Mpc1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Btg2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Numbl;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+St3gal6;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Cd63;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Gadd45g;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Col9a3;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Trp53i11;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Ckb;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Serpinh1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Ttc28;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Cdc14b;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Rasl11b;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Sult2b1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Mfng;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Sh3bgrl3;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+2010107G23Rik;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Serinc2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Lrpap1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Cd82;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Cyb5r3;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Igfbpl1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Prom1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Tecpr1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Tmem176b;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Lrrn2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Pax4;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Mia;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Grin3a;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Spint2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Fuca1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Ly6e;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Camk2n1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Tecr;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Ifitm2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Insm1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+App;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Txnip;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Selm;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Marcksl1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Mfap4;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Gfra3;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Nfix;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Gdpd1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Shf;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Cdk2ap1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Swt1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Stx16;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Qsox1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+C2cd4b;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Cbfa2t2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Tubb3;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Gm8773;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Nkx2-2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Krt8;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Ddit4;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Plk3;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Lfng;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Dll1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Neurod2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Notum;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Krtap17-1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Mdk;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Lpar6;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Bambi;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Slc39a2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Vasp;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+C2cd4c;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Traf4;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Rph3al;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Glrx3;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Pde1c;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Megf11;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Mmd2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Dbn1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Rbfox3;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Tpm4;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Fam110a;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Pard3;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Tead2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Arf5;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Gm42637;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Lmna;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Sulf2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Gng13;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Krt19;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Cxcl12;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Cdk4;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Zfp703;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Ptprf;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Steap1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Eva1b;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Enc1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Clu;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Rnf114;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Rab15;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Rgs16;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Ndrg1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Tbc1d9;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Lynx1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Bcl2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Epb42;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Tinagl1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Gse1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Tmsb10;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Sel1l;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Nptx2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Ppib;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Col11a2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Upk3bl;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Col9a2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Olfm1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Cer1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Tmem59;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Kdm1a;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Tpm1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Crp;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Eya2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Krt7;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Fgd4;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Pla2g2f;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Spsb4;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Nkx6-1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Mcfd2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Cd24a;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Rsad2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Serpina1c;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Tmem171;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Cdkn1c;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Tspan3;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Iffo2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Syt13;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Spp1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Prdx2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Efhd2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+St6galnac2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Slco4a1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Slc16a5;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Gadd45gip1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Prodh2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Mapk3;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Spink4;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Nptx1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Tle6;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Pou3f1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Cstb;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Eps8l2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Ccdc8;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Gtf2a2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Cyth2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Tox3;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Tmbim1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Tspear;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Fblim1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Mycl;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Nono;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Ttyh2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Amer1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Rasgrp3;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Hn1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Snn;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Mmp14;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Col18a1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Zfand6;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Fgd2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Dab1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Cck;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+E2f1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Pkib;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Actg1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Elovl1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Rgs3;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Cat;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Litaf;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Top1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Sema3g;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Hs6st1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Klf13;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Rhbg;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Wapl;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Rorc;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Trim47;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Adamtsl2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Crybb1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Chd7;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Rap1gap2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Commd3;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Agap3;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Cldn12;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Taldo1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Stxbp1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Marcks;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Tbc1d8;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Prss8;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Lgi3;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Smoc2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Casp6;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Acly;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Wsb1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Fam101a;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Tff3;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Obscn;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Aplp2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+H3f3b;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Mycbp2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Dpysl5;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Bnip2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Sftpc;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Miat;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Vldlr;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Eif3f;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Btg1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Inppl1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Casz1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Tgm2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Kirrel2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Scpep1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Calml4;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Hpca;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Kif26a;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Chd3;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Irf2bp1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Fxyd2;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Cd40;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Zfand5;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Tmed4;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;Yes
+Hbp1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Bmp1;PMID: 31160421, Suppl. Table 2 (Upregulated in Ngn3+);pancreas;No
+Nkx2-5;PMID: 25274757;first heart field;Yes
+Gata4;PMID: 25274757;first heart field;Yes
+Tbx5;PMID: 25274757;first heart field;Yes
+Smarcd3;PMID: 25274757;first heart field;Yes
+Tbx2;PMID: 25274757;first heart field;No
+Tbx3;PMID: 25274757;first heart field;Yes
+Tbx5;PMID: 22072574;first heart field;Yes
+Actb;PMID: 22072574;first heart field;Yes
+Tnnt2;PMID: 22072574;first heart field;Yes
+Mlc1;PMID: 22072574;first heart field;No
+Smarcd3;PMID: 22072574;first heart field;Yes
+Gata4;PMID: 22072574;first heart field;Yes
+Mef2c;PMID: 22072574;first heart field;Yes
+Mesp1;PMID: 22072574;first heart field;Yes
+Kdr;PMID: 22072574;first heart field;Yes
+Nkx2-5;PMID: 22072574;first heart field;Yes
+Bmp2;PMID: 22072574;first heart field;Yes
+Foxc2;PMID: 22072574;first heart field;Yes
+Fgf8;PMID: 22072574;first heart field;Yes
+Myl4;PMID: 22072574;first heart field;Yes
+Myl7;PMID: 22072574;first heart field;Yes
+Sln;PMID: 22072574;first heart field;No
+Nppa;PMID: 22072574;first heart field;Yes
+Flk1;PMID: 23457256;first heart field;No
+Pdgfra;PMID: 23457256;first heart field;Yes
+Nkx2-5;PMID: 23457256;first heart field;Yes
+Actc1;PMID: 23457256;first heart field;Yes
+Nodal;PMID: 23457256;first heart field;Yes
+Mesp1;PMID: 23457256;first heart field;Yes
+Tbx5;PMID: 23457256;first heart field;Yes
+Gata4;PMID: 23457256;first heart field;Yes
+Gata6;PMID: 23457256;first heart field;Yes
+Mef2a;PMID: 23457256;first heart field;No
+Nppa;PMID: 23457256;first heart field;Yes
+Gja5;PMID: 23457256;first heart field;No
+Tbx20;PMID: 23457256;first heart field;Yes
+Smarcd3;PMID: 23457256;first heart field;Yes
+Smarca4;PMID: 23457256;first heart field;No
+Ep300;PMID: 23457256;first heart field;No
+Smyd1;PMID: 23457256;first heart field;Yes
+Hopx;PMID: 23457256;first heart field;No
+Srf;PMID: 23457256;first heart field;No
+Ezh2;PMID: 23457256;first heart field;No
+Six1;PMID: 23457256;first heart field;Yes
+Tnnt2;PMID: 27194630;first heart field;Yes
+Hcn4;PMID: 23743334;first heart field;No
+Myh1;PMID: 23743334;first heart field;No
+Tnnt2;PMID: 23743334;first heart field;Yes
+Nkx2-5;PMID: 23743334;first heart field;Yes
+Hcn4;PMID: 18924235;first heart field;No
+Bmp4;PMID: 18924235;first heart field;Yes
+Bmp2;PMID: 18924235;first heart field;Yes
+Mef2c;PMID: 18924235;first heart field;Yes
+Nkx2-5;PMID: 18924235;first heart field;Yes
+Tnnt2;PMID: 18924235;first heart field;Yes
+Hand1;PMID: 30288953;first heart field;Yes
+Hand2;PMID: 30288953;first heart field;Yes
+Irx2;PMID: 30288953;first heart field;Yes
+Dkk1;PMID: 30288953;first heart field;Yes
+Tbx20;PMID: 30288953;first heart field;Yes
+Hey2;PMID: 30288953;first heart field;No
+Gata4;PMID: 30288953;first heart field;Yes
+Mef2c;PMID: 30288953;first heart field;Yes
+Tbx5;PMID: 30288953;first heart field;Yes
+Nkx2-5;PMID: 30288953;first heart field;Yes
+Nppa;PMID: 30288953;first heart field;Yes
+Snai1;PMID: 30288953;first heart field;Yes
+Nkx2-5;PMID: 29440224;first heart field;Yes
+Tbx5;PMID: 29440224;first heart field;Yes
+Pdgfra;PMID: 29440224;first heart field;Yes
+Flk1;PMID: 29440224;first heart field;No
+Mesp1;PMID: 29440224;first heart field;Yes
+Smarcd3;PMID: 29440224;first heart field;Yes
+Hcn4;PMID: 29440224;first heart field;No
+Hopx;PMID: 29440224;first heart field;No
+Hand1;PMID: 29440224;first heart field;Yes
+Hand2;PMID: 29440224;first heart field;Yes
+Tbx20;PMID: 29440224;first heart field;Yes
+Foxf1;PMID: 29440224;first heart field;Yes
+Myl2;PMID: 24123507;first heart field;Yes
+Irx4;PMID: 24123507;first heart field;Yes
+Tnnt2;PMID: 24123507;first heart field;Yes
+Wnt2;PMID: 17576928;first heart field;Yes
+Wnt7a;PMID: 17576928;first heart field;No
+Wnt8a;PMID: 17576928;first heart field;Yes
+Ctnnb1;PMID: 17576928;first heart field;No
+Hand1;PMID: 17576928;first heart field;Yes
+Nkx2-5;PMID: 17576928;first heart field;Yes
+Tbx5;PMID: 17576928;first heart field;Yes
+Gata4;PMID: 17576928;first heart field;Yes
+Mesp1;PMID: 17576928;first heart field;Yes
+Myh6;PMID: 17576928;first heart field;Yes
+Myh7;PMID: 17576928;first heart field;Yes
+Myl7;PMID: 17576928;first heart field;Yes
+Myl2;PMID: 17576928;first heart field;Yes
+Hcn4;PMID: 29985326;first heart field;No
+Tbx5;PMID: 29985326;first heart field;Yes
+Irx4;PMID: 29985326;first heart field;Yes
+Myl2;PMID: 29985326;first heart field;Yes
+Tbx20;PMID: 33585493;first heart field;Yes
+Nkx2-5;PMID: 33585493;first heart field;Yes
+Gata4;PMID: 33585493;first heart field;Yes
+Gata5;PMID: 33585493;first heart field;Yes
+Mycn;PMID: 33585493;first heart field;Yes
+Erbb2;PMID: 33585493;first heart field;No
+Cdc6;PMID: 33585493;first heart field;No
+Hey2;PMID: 33585493;first heart field;No
+Irx4;PMID: 33585493;first heart field;Yes
+Tbx5;PMID: 25183852;first heart field;Yes
+Hcn4;PMID: 25183852;first heart field;No
+Tbx20;PMID: 25183852;first heart field;Yes
+Hey2;PMID: 25183852;first heart field;No
+Mycn;PMID: 25183852;first heart field;Yes
+Etv2;PMID: 25183852;first heart field;Yes
+Tbx4;PMID: 21932311;allantois;Yes
+Tbx4;PMID: 28057264;allantois;Yes
+Tbx5;PMID: 28057264;allantois;Yes
+Hoxa10;PMID: 22219351;allantois;Yes
+Hoxa11;PMID: 22219351;allantois;Yes
+Hoxa13;PMID: 22219351;allantois;No
+Cdx4;PMID: 16396910;allantois;Yes
+Cdx1;PMID: 16396910;allantois;Yes
+Cdx2;PMID: 16396910;allantois;Yes
+Cdx1;PMID: 22960234;allantois;Yes
+Cdx2;PMID: 22960234;allantois;Yes
+Cdx4;PMID: 22960234;allantois;Yes
+Tek;PMID: 22960234;allantois;Yes
+Kdr;PMID: 22960234;allantois;Yes
+Flt1;PMID: 22960234;allantois;Yes
+Vegfa;PMID: 22960234;allantois;No
+Angpt1;PMID: 22960234;allantois;Yes
+Angpt2;PMID: 22960234;allantois;No
+Rspo3;PMID: 18842812;allantois;Yes
+Dkk1;PMID: 18842812;allantois;Yes
+Ctdnep1;https://maayanlab.cloud/Harmonizome/gene_set/absent+allantois/MPO+Gene-Phenotype+Associations';allantois;No
+Dab2;https://maayanlab.cloud/Harmonizome/gene_set/absent+allantois/MPO+Gene-Phenotype+Associations';allantois;Yes
+Lin9;https://maayanlab.cloud/Harmonizome/gene_set/absent+allantois/MPO+Gene-Phenotype+Associations';allantois;No
+Mllt4;https://maayanlab.cloud/Harmonizome/gene_set/absent+allantois/MPO+Gene-Phenotype+Associations';allantois;No
+Nodal;https://maayanlab.cloud/Harmonizome/gene_set/absent+allantois/MPO+Gene-Phenotype+Associations';allantois;Yes
+Prkci;https://maayanlab.cloud/Harmonizome/gene_set/absent+allantois/MPO+Gene-Phenotype+Associations';allantois;No
+Slc31a1;https://maayanlab.cloud/Harmonizome/gene_set/absent+allantois/MPO+Gene-Phenotype+Associations';allantois;Yes
+Smad2;https://maayanlab.cloud/Harmonizome/gene_set/absent+allantois/MPO+Gene-Phenotype+Associations';allantois;No
+T;https://maayanlab.cloud/Harmonizome/gene_set/absent+allantois/MPO+Gene-Phenotype+Associations';allantois;Yes
+Tfap2c;https://maayanlab.cloud/Harmonizome/gene_set/absent+allantois/MPO+Gene-Phenotype+Associations';allantois;Yes
+Sox17;PMID: 34988400;definitive endoterm;Yes
+Nodal;PMID: 34988400;definitive endoterm;Yes
+Inhba;PMID: 34988400;definitive endoterm;No
+Foxa2;PMID: 34988400;definitive endoterm;Yes
+Cdh1;PMID: 34988400;definitive endoterm;No
+Foxa2;PMID: 30038254;definitive endoterm;Yes
+Sox17;PMID: 30038254;definitive endoterm;Yes
+Sox17;PMID: 24973948;definitive endoterm;Yes
+Nanog;PMID: 24973948;definitive endoterm;Yes
+Mixl1;PMID: 17387317;definitive endoterm;Yes
+Lhx1;PMID: 17387317;definitive endoterm;Yes
+Nckap1;PMID: 17387317;definitive endoterm;No
+Pcsk6;PMID: 17387317;definitive endoterm;Yes
+Furin;PMID: 17387317;definitive endoterm;No
+Acvr2b;PMID: 17387317;definitive endoterm;No
+Acvr1b;PMID: 17387317;definitive endoterm;No
+Tdgf1;PMID: 17387317;definitive endoterm;Yes
+Rnf111;PMID: 17387317;definitive endoterm;No
+Smad2;PMID: 17387317;definitive endoterm;No
+Foxh1;PMID: 17387317;definitive endoterm;No
+Smad3;PMID: 17387317;definitive endoterm;Yes
+Amot;PMID: 17387317;definitive endoterm;Yes
+Gata4;PMID: 16752393;definitive endoterm;Yes
+Furin;PMID: 16752393;definitive endoterm;No
+Nodal;PMID: 16752393;definitive endoterm;Yes
+Mixl1;PMID: 16752393;definitive endoterm;Yes
+Ctnnb1;PMID: 16752393;definitive endoterm;No
+Cdx2;PMID: 16752393;definitive endoterm;Yes
+Otx2;PMID: 16752393;definitive endoterm;Yes
+Lhx1;PMID: 16752393;definitive endoterm;Yes
+Pax1;PMID: 16752393;definitive endoterm;No
+Pax9;PMID: 16752393;definitive endoterm;No
+Hoxa3;PMID: 16752393;definitive endoterm;No
+Fgf8;PMID: 16752393;definitive endoterm;Yes
+Shh;PMID: 16752393;definitive endoterm;No
+Tbx1;PMID: 16752393;definitive endoterm;No
+Hoxa13;PMID: 16752393;definitive endoterm;No
+Gata5;PMID: 16752393;definitive endoterm;No
+Pklr;PMID: 16752393;definitive endoterm;No
+Smad3;PMID: 16752393;definitive endoterm;Yes
+Hnf4a;PMID: 16752393;definitive endoterm;Yes
+Sox17;PMID: 16752393;definitive endoterm;Yes
+Gata4;PMID: 16752393;definitive endoterm;Yes
+Ihh;PMID: 16752393;definitive endoterm;Yes
+Afp;PMID: 16752393;definitive endoterm;Yes
+Alb;PMID: 16752393;definitive endoterm;No
+Foxa2;PMID: 16752393;definitive endoterm;Yes
+Nodal;PMID: 16752393;definitive endoterm;Yes
+Dkk1;PMID: 16752393;definitive endoterm;Yes
+Cer1;PMID: 16752393;definitive endoterm;Yes
+Irx3;PMID: 16752393;definitive endoterm;Yes
+Fgf8;PMID: 16752393;definitive endoterm;Yes
+Otx2;PMID: 16752393;definitive endoterm;Yes
+Cdx2;PMID: 16752393;definitive endoterm;Yes
+Hhex;PMID: 16752393;definitive endoterm;Yes
+Irx1;PMID: 16752393;definitive endoterm;Yes
+Cldn6;PMID: 18213590;definitive endoterm;Yes
+Shh;PMID: 18213590;definitive endoterm;No
+Foxa1;PMID: 18213590;definitive endoterm;Yes
+Foxa2;PMID: 18213590;definitive endoterm;Yes
+Sox17;PMID: 18213590;definitive endoterm;Yes
+Cxcr4;PMID: 27534536;definitive endoterm;Yes
+Sox17;PMID: 27534536;definitive endoterm;Yes
+Cer1;PMID: 27534536;definitive endoterm;Yes
+Eomes;PMID: 27534536;definitive endoterm;Yes
+Gata6;PMID: 27534536;definitive endoterm;Yes
+Lefty1;PMID: 27534536;definitive endoterm;Yes
+Hnf1b;PMID: 27534536;definitive endoterm;Yes
+Kit;PMID: 27534536;definitive endoterm;No
+Krt19;PMID: 27534536;definitive endoterm;Yes
+Gata4;PMID: 27534536;definitive endoterm;Yes
+Prdm1;PMID: 27534536;definitive endoterm;Yes
+Myct1;PMID: 27534536;definitive endoterm;No
+Klf8;PMID: 27534536;definitive endoterm;No
+Gata6;PMID: 34010638;definitive endoterm;Yes
+Alb;PMID: 34010638;definitive endoterm;No
+Eomes;PMID: 34010638;definitive endoterm;Yes
+Sox17;PMID: 34010638;definitive endoterm;Yes
+Foxa2;PMID: 34010638;definitive endoterm;Yes
+Tmprss2;PMID: 17576135;definitive endoterm;Yes
+Plet1;PMID: 17576135;definitive endoterm;Yes
+Dsp;PMID: 17576135;definitive endoterm;Yes
+Klf5;PMID: 17576135;definitive endoterm;Yes
+Epha2;PMID: 17576135;definitive endoterm;Yes

@@ -1,0 +1,4040 @@
+---
+name: Datavzrd Report
+datasets:
+  Suppl. Tab. 9:
+    path: bioinformatics/Suppl. Tab. 9.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 31:
+    path: bioinformatics/Suppl. Tab. 31.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 10:
+    path: bioinformatics/Suppl. Tab. 10.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 27:
+    path: bioinformatics/Suppl. Tab. 27.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 3b-2:
+    path: bioinformatics/Suppl. Tab. 3b-2.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 28:
+    path: bioinformatics/Suppl. Tab. 28.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 22:
+    path: bioinformatics/Suppl. Tab. 22.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 2:
+    path: bioinformatics/Suppl. Tab. 2.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 15:
+    path: bioinformatics/Suppl. Tab. 15.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 4:
+    path: bioinformatics/Suppl. Tab. 4.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 3b-1:
+    path: bioinformatics/Suppl. Tab. 3b-1.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 18:
+    path: bioinformatics/Suppl. Tab. 18.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 26:
+    path: bioinformatics/Suppl. Tab. 26.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 3a-4:
+    path: bioinformatics/Suppl. Tab. 3a-4.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 16:
+    path: bioinformatics/Suppl. Tab. 16.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 1a:
+    path: bioinformatics/Suppl. Tab. 1a.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 7:
+    path: bioinformatics/Suppl. Tab. 7.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 14:
+    path: bioinformatics/Suppl. Tab. 14.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 17:
+    path: bioinformatics/Suppl. Tab. 17.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 11:
+    path: bioinformatics/Suppl. Tab. 11.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 3a-3:
+    path: bioinformatics/Suppl. Tab. 3a-3.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 3b-3:
+    path: bioinformatics/Suppl. Tab. 3b-3.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 23:
+    path: bioinformatics/Suppl. Tab. 23.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 29:
+    path: bioinformatics/Suppl. Tab. 29.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 32:
+    path: bioinformatics/Suppl. Tab. 32.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 3a-2:
+    path: bioinformatics/Suppl. Tab. 3a-2.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 3a-1:
+    path: bioinformatics/Suppl. Tab. 3a-1.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 6-1:
+    path: bioinformatics/Suppl. Tab. 6-1.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 8:
+    path: bioinformatics/Suppl. Tab. 8.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 25:
+    path: bioinformatics/Suppl. Tab. 25.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 30:
+    path: bioinformatics/Suppl. Tab. 30.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 19:
+    path: bioinformatics/Suppl. Tab. 19.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 33:
+    path: bioinformatics/Suppl. Tab. 33.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 3b-4:
+    path: bioinformatics/Suppl. Tab. 3b-4.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 1c:
+    path: bioinformatics/Suppl. Tab. 1c.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 13:
+    path: bioinformatics/Suppl. Tab. 13.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 20:
+    path: bioinformatics/Suppl. Tab. 20.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 5:
+    path: bioinformatics/Suppl. Tab. 5.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 1b:
+    path: bioinformatics/Suppl. Tab. 1b.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 12:
+    path: bioinformatics/Suppl. Tab. 12.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 21:
+    path: bioinformatics/Suppl. Tab. 21.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 6-2:
+    path: bioinformatics/Suppl. Tab. 6-2.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Suppl. Tab. 24:
+    path: bioinformatics/Suppl. Tab. 24.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+max-in-memory-rows: 20000
+views:
+  Suppl. Tab. 9:
+    hidden: false
+    dataset: Suppl. Tab. 9
+    page-size: 20
+    render-table:
+      columns:
+        Fibroblast_corr:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        references:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        highly_variable:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        EMT TFs:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        gene_name:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        highly_variable_rank:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Fibroblast_pval:
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
+          plot-view-legend: false
+        gene_set:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 8:
+    hidden: false
+    dataset: Suppl. Tab. 8
+    page-size: 20
+    render-table:
+      columns:
+        highly_variable:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 9":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        "Unnamed: 8":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        highly_variable_rank:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Neuron_corr:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        gene_name:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Neuron_pval:
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
+          plot-view-legend: false
+        gene_set:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 10":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        "Unnamed: 7":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        references:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 11:
+    hidden: false
+    dataset: Suppl. Tab. 11
+    page-size: 20
+    render-table:
+      columns:
+        avg_log2FC:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        p_val:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        pct.1:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        pct.2:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        p_val_adj:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Marker peaks epsilon progenitors:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 3b-1:
+    hidden: false
+    dataset: Suppl. Tab. 3b-1
+    page-size: 20
+    render-table:
+      columns:
+        Found apoptotic ratio - low rank:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Target apoptotic range:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 0":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Developmental stage:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        time pair:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        tau_a:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 21:
+    hidden: false
+    dataset: Suppl. Tab. 21
+    page-size: 20
+    render-table:
+      columns:
+        moscot driver TFs delta:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Delta_pull_ci_high:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Delta_pull_ci_low:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Delta_pull_pval:
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
+        Delta_pull_qval:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Delta_pull_corr:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 27:
+    hidden: false
+    dataset: Suppl. Tab. 27
+    page-size: 20
+    render-table:
+      columns:
+        "Unnamed: 0":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Gene:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Node_type:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        GEX_celltype_Log2FC_Epsilon:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        GEX_celltype_Log2FC_Delta:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        GEX_celltype_Log2FC_Fev+Delta:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 0.1":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Gene_signature_name:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        GEX_celltype_Log2FC_Epsprogenitors:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Region:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 31:
+    hidden: false
+    dataset: Suppl. Tab. 31
+    page-size: 20
+    render-table:
+      columns:
+        Motif_ID:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        logfoldchanges:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Differentiable motif activity epsilon cells:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        pvals_adj:
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
+        names:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        scores:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        TF_name:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        direct_TF:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        pvals:
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
+  Suppl. Tab. 32:
+    hidden: false
+    dataset: Suppl. Tab. 32
+    page-size: 20
+    render-table:
+      columns:
+        TF_name:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        direct_TF:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        names:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        pvals_adj:
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
+        Motif_ID:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        scores:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        pvals:
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
+        logfoldchanges:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Differentiable motif activity alpha cells:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 29:
+    hidden: false
+    dataset: Suppl. Tab. 29
+    page-size: 20
+    render-table:
+      columns:
+        Fev+Delta:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Fev+Delta|Ngn3high:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Fev+Delta|Epsprogenitors:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Fev+Delta|Ngn3high|Epsprogenitors:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Epsprogenitors:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Ngn3high|Epsprogenitors:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Ngn3high:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 3a-3:
+    hidden: false
+    dataset: Suppl. Tab. 3a-3
+    page-size: 20
+    render-table:
+      columns:
+        Target apoptotic range:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Found apoptotic ratio:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        time pair:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Developmental stage:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        tau_a:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 0":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 1c:
+    hidden: false
+    dataset: Suppl. Tab. 1c
+    page-size: 20
+    render-table:
+      columns:
+        Waddington OT (only CPU):
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Cell numbers in source and target:":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Moscot - low rank (rank=2000):
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Moscot:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 25:
+    hidden: false
+    dataset: Suppl. Tab. 25
+    page-size: 20
+    render-table:
+      columns:
+        GEX_celltype_Log2FC_Delta:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Region:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 0.1":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        GEX_celltype_Log2FC_Epsilon:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Node_type:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 0":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        GEX_celltype_Log2FC_Epsprogenitors:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        GEX_celltype_Log2FC_Fev+Delta:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Gene:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Gene_signature_name:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 6-1:
+    hidden: false
+    dataset: Suppl. Tab. 6-1
+    page-size: 20
+    render-table:
+      columns:
+        gene_name:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Liver_pull_corr:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Liver_pull_qval:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Liver_pull_ci_high:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Liver_pull_ci_low:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Liver_pull_pval:
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
+        references:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 2:
+    hidden: false
+    dataset: Suppl. Tab. 2
+    page-size: 20
+    render-table:
+      columns:
+        "Publications:":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 10":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 16":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        "Unnamed: 6":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 32":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        Germ_layer:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 29":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        "Unnamed: 22":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        "Unnamed: 8":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 24":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        "Unnamed: 7":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 30":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        "Unnamed: 15":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        "Unnamed: 11":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 13":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        "Unnamed: 17":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        "Unnamed: 35":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        "Unnamed: 12":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        Known_descendants:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 21":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        "Unnamed: 23":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        "Unnamed: 36":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        "Unnamed: 33":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        Known_progenitors:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 9":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 18":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        "Unnamed: 31":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        "Unnamed: 14":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        "Alternative naming and additional notes:":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 20":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        "Unnamed: 25":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        "Unnamed: 28":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        "Unnamed: 27":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        "Unnamed: 19":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        "Unnamed: 34":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        "Unnamed: 26":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        Cell_type:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 15:
+    hidden: false
+    dataset: Suppl. Tab. 15
+    page-size: 20
+    render-table:
+      columns:
+        Eps_progenitors_pull_corr:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Eps_progenitors_pull_pval:
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
+        Eps_progenitors_pull_ci_low:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Eps_progenitors_pull_qval:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Eps_progenitors_pull_ci_high:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        moscot driver genes epsilon progenitors:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 7:
+    hidden: false
+    dataset: Suppl. Tab. 7
+    page-size: 20
+    render-table:
+      columns:
+        gene_short_name:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        highly_variable_rank:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        gene_set:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        highly_variable:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Heart_pval:
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
+        references:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Heart_corr:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 3b-2:
+    hidden: false
+    dataset: Suppl. Tab. 3b-2
+    page-size: 20
+    render-table:
+      columns:
+        Target apoptotic range:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Developmental stage:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 0":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Found apoptotic ratio - low rank:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        time pair:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        tau_a:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 16:
+    hidden: false
+    dataset: Suppl. Tab. 16
+    page-size: 20
+    render-table:
+      columns:
+        Fev_delta_pull_corr:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Fev_delta_pull_ci_low:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Fev_delta_pull_qval:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Fev_delta_pull_ci_high:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Fev_delta_pull_pval:
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
+          plot-view-legend: false
+        moscot driver genes Fev+ delta:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 4:
+    hidden: false
+    dataset: Suppl. Tab. 4
+    page-size: 20
+    render-table:
+      columns:
+        Genes:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        PMID:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Cell Type:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Highly-Variable:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 3a-1:
+    hidden: false
+    dataset: Suppl. Tab. 3a-1
+    page-size: 20
+    render-table:
+      columns:
+        Target apoptotic range:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Found apoptotic ratio:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 0":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Developmental stage:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        time pair:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        tau_a:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 10:
+    hidden: false
+    dataset: Suppl. Tab. 10
+    page-size: 20
+    render-table:
+      columns:
+        Cell type:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        marker genes:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 14:
+    hidden: false
+    dataset: Suppl. Tab. 14
+    page-size: 20
+    render-table:
+      columns:
+        Beta_pull_qval:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        moscot driver genes Beta:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Beta_pull_ci_high:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Beta_pull_corr:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Beta_pull_pval:
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
+        Beta_pull_ci_low:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 20:
+    hidden: false
+    dataset: Suppl. Tab. 20
+    page-size: 20
+    render-table:
+      columns:
+        Fev_delta_pull_qval:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Fev_delta_pull_pval:
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
+        moscot driver TFs Fev+ delta:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Fev_delta_pull_ci_high:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Fev_delta_pull_corr:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Fev_delta_pull_ci_low:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 23:
+    hidden: false
+    dataset: Suppl. Tab. 23
+    page-size: 20
+    render-table:
+      columns:
+        GEX_celltype_Log2FC_Ngn3high:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Region:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        GEX_celltype_Log2FC_Delta:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        GEX_celltype_Log2FC_Fev+Delta:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        GEX_celltype_Log2FC_Epsilon:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Gene:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 0":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Node_type:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Gene_signature_name:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        GEX_celltype_Log2FC_Epsprogenitors:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 26:
+    hidden: false
+    dataset: Suppl. Tab. 26
+    page-size: 20
+    render-table:
+      columns:
+        "Unnamed: 0.1":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Gene_signature_name:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        GEX_celltype_Log2FC_Epsilon:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        GEX_celltype_Log2FC_Delta:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        GEX_celltype_Log2FC_Epsprogenitors:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Node_type:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Gene:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 0":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        GEX_celltype_Log2FC_Fev+Delta:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Region:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 19:
+    hidden: false
+    dataset: Suppl. Tab. 19
+    page-size: 20
+    render-table:
+      columns:
+        Eps_progenitors_pull_qval:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        moscot driver TFs Eps. progenitors:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Eps_progenitors_pull_corr:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Eps_progenitors_pull_pval:
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
+        Eps_progenitors_pull_ci_low:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Eps_progenitors_pull_ci_high:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 33:
+    hidden: false
+    dataset: Suppl. Tab. 33
+    page-size: 20
+    render-table:
+      columns:
+        scores:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        pvals_adj:
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
+        pvals:
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
+        Differential motif activity beta cells:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        names:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Motif_ID:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        direct_TF:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        logfoldchanges:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        TF_name:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 17:
+    hidden: false
+    dataset: Suppl. Tab. 17
+    page-size: 20
+    render-table:
+      columns:
+        Delta_pull_pval:
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
+        moscot driver genes delta cells:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Delta_pull_ci_high:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Delta_pull_qval:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Delta_pull_corr:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Delta_pull_ci_low:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 3a-4:
+    hidden: false
+    dataset: Suppl. Tab. 3a-4
+    page-size: 20
+    render-table:
+      columns:
+        time pair:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        tau_a:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Target apoptotic range:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Developmental stage:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 0":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Found apoptotis rate (moscot):
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        cl-TOME apoptotis rate:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 12:
+    hidden: false
+    dataset: Suppl. Tab. 12
+    page-size: 20
+    render-table:
+      columns:
+        pct.2:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        avg_log2FC:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        p_val_adj:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        p_val:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        pct.1:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Marker peaks Fev+ Delta:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 24:
+    hidden: false
+    dataset: Suppl. Tab. 24
+    page-size: 20
+    render-table:
+      columns:
+        GEX_celltype_Log2FC_Fev+Delta:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Node_type:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Gene:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        GEX_celltype_Log2FC_Epsilon:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        GEX_celltype_Log2FC_Epsprogenitors:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 0":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 0.1":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Region:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        GEX_celltype_Log2FC_Ngn3high:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        GEX_celltype_Log2FC_Delta:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Gene_signature_name:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 22:
+    hidden: false
+    dataset: Suppl. Tab. 22
+    page-size: 20
+    render-table:
+      columns:
+        moscot driver TFs Epsilon:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 0":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Epsilon_pull_pval:
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
+        Epsilon_pull_corr:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Epsilon_pull_qval:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Epsilon_pull_ci_low:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Epsilon_pull_ci_high:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 1b:
+    hidden: false
+    dataset: Suppl. Tab. 1b
+    page-size: 20
+    render-table:
+      columns:
+        "Cell numbers in source and target:":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Moscot - low rank (rank=2000):
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Moscot:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Waddington OT (only CPU):
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 13:
+    hidden: false
+    dataset: Suppl. Tab. 13
+    page-size: 20
+    render-table:
+      columns:
+        Alpha_pull_qval:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Alpha_pull_ci_low:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Alpha_pull_ci_high:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Alpha_pull_pval:
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
+        moscot driver genes Alpha:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Alpha_pull_corr:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 18:
+    hidden: false
+    dataset: Suppl. Tab. 18
+    page-size: 20
+    render-table:
+      columns:
+        Epsilon_pull_qval:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Epsilon_pull_ci_high:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        moscot driver genes epsilon cells:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Epsilon_pull_corr:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Epsilon_pull_ci_low:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Epsilon_pull_pval:
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
+  Suppl. Tab. 5:
+    hidden: false
+    dataset: Suppl. Tab. 5
+    page-size: 20
+    render-table:
+      columns:
+        "Unnamed: 3":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        "Unnamed: 5":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Supplementary Table 5: Curated cell type transitions (spatio-temporal analysis)":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 6":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot-view-legend: false
+        "Unnamed: 1":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 4":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 2":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 28:
+    hidden: false
+    dataset: Suppl. Tab. 28
+    page-size: 20
+    render-table:
+      columns:
+        GEX_celltype_Log2FC_Fev+Delta:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        GEX_celltype_Log2FC_Epsilon:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Node_type:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 0":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Gene:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        GEX_celltype_Log2FC_Delta:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        GEX_celltype_Log2FC_Epsprogenitors:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Region:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Gene_signature_name:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 0.1":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 30:
+    hidden: false
+    dataset: Suppl. Tab. 30
+    page-size: 20
+    render-table:
+      columns:
+        scores:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        pvals_adj:
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
+        Motif_ID:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        direct_TF:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        names:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        TF_name:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Differentiable motif activity delta cells:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        pvals:
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
+        logfoldchanges:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 6-2:
+    hidden: false
+    dataset: Suppl. Tab. 6-2
+    page-size: 20
+    render-table:
+      columns:
+        references:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Hnf4a_push_ci_high:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Hnf4a_push_pval:
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
+        gene_name:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Hnf4a_push_corr:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Hnf4a_push_ci_low:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Hnf4a_push_qval:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 3a-2:
+    hidden: false
+    dataset: Suppl. Tab. 3a-2
+    page-size: 20
+    render-table:
+      columns:
+        "Unnamed: 0":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        time pair:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        tau_a:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Found apoptotic ratio:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Target apoptotic range:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Developmental stage:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 3b-3:
+    hidden: false
+    dataset: Suppl. Tab. 3b-3
+    page-size: 20
+    render-table:
+      columns:
+        Target apoptotic range:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        tau_a:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Found apoptotic ratio - low rank:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 0":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Developmental stage:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        time pair:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 1a:
+    hidden: false
+    dataset: Suppl. Tab. 1a
+    page-size: 20
+    render-table:
+      columns:
+        Moscot - low rank (rank=2000):
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Moscot:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Cell number in source and target:":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Waddington OT:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Suppl. Tab. 3b-4:
+    hidden: false
+    dataset: Suppl. Tab. 3b-4
+    page-size: 20
+    render-table:
+      columns:
+        Found apoptotic ratio - low rank:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Developmental stage:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        tau_a:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        "Unnamed: 0":
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              clamp: false
+              color-scheme: blues
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        time pair:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Target apoptotic range:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+webview-controls: false

@@ -1,0 +1,41 @@
+gene_name;gene_set;Fibroblast_pval;Fibroblast_corr;highly_variable;highly_variable_rank;references;EMT TFs
+Prrx1;TF;0;0.201106255;FALSCH;;https://www.nature.com/articles/s41467-018-05274-6;v
+Runx2;TF;0;0.121334195;FALSCH;1596;https://doi.org/10.1016/j.celrep.2022.111315;v
+Jarid2;TF;0;0.117761981;FALSCH;;https://www.sciencedirect.com/science/article/pii/S1098360021025521;
+Bnc2;TF;3.17E-244;0.09955318;WAHR;682.5;https://www.nature.com/articles/s41467-022-33063-9;
+Prdm6;TF;3.89E-220;0.09450205;FALSCH;1214;;
+Msx2;TF;2.35E-215;0.093466326;FALSCH;;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2220014/;
+Creb3l1;TF;3.63E-184;0.086398753;FALSCH;;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5816725/;
+Alx4;TF;2.55E-172;0.083554642;FALSCH;;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1571319/;
+Twist1;TF;3.91E-165;0.081780877;FALSCH;;https://www.nature.com/articles/cr2011144;
+Peg3;TF;3.50E-142;0.075832441;FALSCH;1465;;
+Msx1;TF;2.01E-141;0.075627643;WAHR;79.5;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2220014/;
+Foxc1;TF;1.06E-121;0.070093731;FALSCH;;https://www.pnas.org/doi/10.1073/pnas.0702618104;v
+Maf;TF;2.74E-115;0.068197076;FALSCH;;https://onlinelibrary.wiley.com/doi/full/10.1111/wrr.12392;
+Tbx15;TF;2.90E-115;0.068189744;FALSCH;;https://www.nature.com/articles/ncomms9054;
+Nfic;TF;2.51E-108;0.066075477;FALSCH;;https://synapse.koreamed.org/articles/1092029#B46-jkaoms-43-63;
+Six2;TF;1.77E-88;0.059610505;FALSCH;;https://www.sciencedirect.com/science/article/pii/S0012160610008122;
+Mkx;TF;4.51E-85;0.058428957;FALSCH;;https://febs.onlinelibrary.wiley.com/doi/10.1111/febs.12837;
+Prrx2;TF;9.52E-84;0.057962867;FALSCH;;https://doi.org/10.1242/dev.125.19.3831;v
+Klf4;TF;3.99E-81;0.057028887;FALSCH;;https://molecular-cancer.biomedcentral.com/articles/10.1186/1476-4598-12-89;v
+Osr1;TF;3.24E-73;0.054113715;FALSCH;;;
+Col1a2;all genes;0;0.510447752;WAHR;11;https://www.nature.com/articles/nature25739;
+Col1a1;all genes;0;0.502546067;WAHR;26;https://www.nature.com/articles/nature25739;
+Sparc;all genes;0;0.376609079;WAHR;413;https://www.nature.com/articles/s41598-021-83952-0;
+Col3a1;all genes;0;0.369189846;WAHR;443;https://www.nature.com/articles/nature25739;
+H19;all genes;0;0.33575468;WAHR;195;;
+Col12a1;all genes;0;0.308597;WAHR;588;https://www.nature.com/articles/nature25739;
+Igf2;all genes;0;0.289682593;FALSCH;1634;https://www.mdpi.com/2073-4425/9/3/169/htm;
+Col5a2;all genes;0;0.272105649;FALSCH;;https://www.nature.com/articles/nature25739;
+Fn1;all genes;0;0.251986363;FALSCH;1545;https://www.nature.com/articles/s41598-017-03701-0;
+Cdk8;all genes;0;0.250157716;WAHR;228;;
+Lgals1;all genes;0;0.242591091;FALSCH;;https://www.sciencedirect.com/science/article/pii/S0022202X15370287;
+Fstl1;all genes;0;0.241719423;FALSCH;;https://www.sciencedirect.com/science/article/pii/S156757692030059X;
+Thbs2;all genes;0;0.241484122;FALSCH;;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2527070/;
+Serpinh1;all genes;0;0.224157771;FALSCH;;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9666166/;
+Sfrp2;all genes;0;0.209020321;WAHR;683;pnas.org/doi/10.1073/pnas.1004708107;
+Prrx1;all genes;0;0.201106255;FALSCH;;https://www.nature.com/articles/s41467-018-05274-6;
+Col11a1;all genes;0;0.197787293;FALSCH;;https://www.nature.com/articles/nature25739;
+Dcn;all genes;0;0.19161096;WAHR;385.5;https://www.nature.com/articles/nature25739;
+Ahnak;all genes;0;0.17983869;FALSCH;;https://pubmed.ncbi.nlm.nih.gov/27374178/;
+Cdkn1c;all genes;0;0.179027825;FALSCH;1946;;

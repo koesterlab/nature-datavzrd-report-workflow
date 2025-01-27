@@ -1,0 +1,41 @@
+gene_short_name;gene_set;Heart_pval;Heart_corr;highly_variable;highly_variable_rank;references
+Tbx20;TF;0;0.127559407319463;FALSCH;1104;https://www.frontiersin.org/articles/10.3389/fcell.2021.638542/full
+Nkx2-5;TF;0.00E+00;0.103227193757018;WAHR;517.5;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4461860/
+Gata4;TF;0.00E+00;0.0946183453431788;WAHR;766;https://doi.org/10.1161/CIRCRESAHA.119.315862
+Gata6;TF;0.00E+00;0.0706895835095061;FALSCH;1090;https://doi.org/10.1161/CIRCRESAHA.119.315862
+Hand2;TF;0.00E+00;0.0641970142729029;FALSCH;1033;https://www.ahajournals.org/doi/10.1161/circresaha.108.180083
+Tbx5;TF;0.00E+00;0.0555191647054625;FALSCH;1536;https://pubmed.ncbi.nlm.nih.gov/28057264/
+Hopx;TF;4.98E-120;0.0323341362768645;WAHR;215;https://doi.org/10.1161/CIRCRESAHA.119.315862
+Prrx2;TF;2.86E-85;0.0271646295407923;WAHR;621;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0083364
+Tfdp2;TF;3.47E-84;0.0269875846624619;FALSCH;;
+Id3;TF;2.28E-77;0.0258461780313009;WAHR;514;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6534900/
+Myrf;TF;1.39E-70;0.0246577322425156;FALSCH;;https://www.mdpi.com/2077-0383/11/16/4858
+Hey2;TF;2.74E-65;0.0236894403358301;FALSCH;1864;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6331777/
+Gata5;TF;1.22E-63;0.0233799698285069;FALSCH;1832;https://doi.org/10.1161/CIRCRESAHA.119.315862
+Tbx18;TF;1.05E-59;0.0226235490787571;FALSCH;1242;https://doi.org/10.1016/j.ydbio.2013.08.019
+Smad6;TF;7.24E-58;0.0222615274684684;FALSCH;1535;https://doi.org/10.1016/j.ydbio.2004.12.037
+Elk3;TF;5.13E-57;0.0220920721550924;FALSCH;;
+Wt1;TF;9.87E-56;0.0218337367689754;WAHR;713;https://www.ncbi.nlm.nih.gov/books/NBK373348/
+Gsc;TF;6.80E-52;0.0210427531462738;FALSCH;901;
+Creb3l2;TF;2.01E-51;0.0209436189727131;FALSCH;1829.5;https://doi.org/10.1016/j.celrep.2019.01.079
+Ybx3;TF;2.95E-50;0.0206960669884594;FALSCH;;
+Myl7;all genes;0;0.377250757710709;WAHR;6;https://doi.org/10.1161/CIRCRESAHA.119.315862
+Hba-a1;all genes;0;0.362223174498104;WAHR;8;
+Myh6;all genes;0;0.356917453351852;WAHR;28;https://doi.org/10.1161/CIRCRESAHA.119.315862
+Hba-a2;all genes;0;0.352012625814615;WAHR;10;
+Alas2;all genes;0;0.34059414460336;WAHR;523;
+Hba-x;all genes;0;0.326681812216425;WAHR;8.5;
+Hbb-y;all genes;0;0.321720900771683;WAHR;13;
+Nppa;all genes;0;0.309586683825293;WAHR;14;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4281842/#:~:text=10.1089/dna.2014.2600
+Tnni3;all genes;0;0.297885191922706;WAHR;151;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8431798/
+Hbb-bt;all genes;0;0.294465033120727;WAHR;9.5;
+Apex2;all genes;0;0.244115100502911;WAHR;498;
+Myl2;all genes;0;0.239341143509268;WAHR;4.5;https://doi.org/10.1016/j.devcel.2016.10.001
+Hbb-bs;all genes;0;0.237905035995257;WAHR;12;
+Tnnt2;all genes;0;0.232644490895107;WAHR;34;https://doi.org/10.3390/genes11040402
+Ankrd1;all genes;0;0.228475093148665;WAHR;261;https://academic.oup.com/cardiovascres/article/116/8/1458/5613185#:~:text=https%3A//doi.org/10.1093/cvr/cvz291
+Myl3;all genes;0;0.226275505518079;WAHR;20;https://doi.org/10.1016/j.devcel.2016.10.001
+Mybpc3;all genes;0;0.226258390749167;WAHR;273;https://www.sciencedirect.com/science/article/pii/S0378111915010884#:~:text=https%3A//doi.org/10.1016/j.gene.2015.09.008
+Fam46c;all genes;0;0.213847742668349;WAHR;809;https://www.sciencedirect.com/science/article/pii/S0024320519302127?via%3Dihub#:~:text=https%3A//doi.org/10.1016/j.lfs.2019.03.048
+Mkrn1;all genes;0;0.212575388125959;FALSCH;1152;
+Epb41;all genes;0;0.207069516768415;WAHR;759;https://link.springer.com/article/10.1007/s00335-004-2436-7
