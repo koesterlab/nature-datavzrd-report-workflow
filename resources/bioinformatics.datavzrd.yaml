@@ -437,16 +437,10 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
         p_val:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
           plot-view-legend: false
         pct.1:
           optional: false
@@ -473,17 +467,10 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
         p_val_adj:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
         Marker peaks epsilon progenitors:
           optional: false
           precision: 2
@@ -1409,51 +1396,7 @@ views:
     render-table:
       columns:
         "Publications:":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
-        "Unnamed: 10":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
-        "Unnamed: 16":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
-        "Unnamed: 6":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
-        "Unnamed: 32":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
+          display-mode: detail
         Germ_layer:
           optional: false
           precision: 2
@@ -1466,217 +1409,16 @@ views:
               range: []
               aux-domain-columns: ~
           plot-view-legend: false
-        "Unnamed: 29":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
-        "Unnamed: 22":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
-        "Unnamed: 8":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
-        "Unnamed: 24":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
-        "Unnamed: 7":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
-        "Unnamed: 30":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
-        "Unnamed: 15":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
-        "Unnamed: 11":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
-        "Unnamed: 13":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
-        "Unnamed: 17":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
-        "Unnamed: 35":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
-        "Unnamed: 12":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
         Known_descendants:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
-        "Unnamed: 21":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
-        "Unnamed: 23":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
-        "Unnamed: 36":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
-        "Unnamed: 33":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
+          ellipsis: 50
         Known_progenitors:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
-        "Unnamed: 9":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
-        "Unnamed: 18":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
-        "Unnamed: 31":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
-        "Unnamed: 14":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
+          ellipsis: 50
         "Alternative naming and additional notes:":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
-        "Unnamed: 20":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
-        "Unnamed: 25":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
-        "Unnamed: 28":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
-        "Unnamed: 27":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
-        "Unnamed: 19":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
-        "Unnamed: 34":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
-        "Unnamed: 26":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
+          display-mode: detail
+        "regex('Unnamed.+')":
+          display-mode: hidden
         Cell_type:
-          optional: false
-          precision: 2
           display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
   Suppl. Tab. 15:
     hidden: false
     dataset: Suppl. Tab. 15
@@ -2900,29 +2642,15 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
         p_val_adj:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
         p_val:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          spell:
+            url: v1.2.1/stats/p-value
+            with:
+              significance_threshold: 0.05
         pct.1:
           optional: false
           precision: 2
