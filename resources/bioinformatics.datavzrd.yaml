@@ -237,29 +237,15 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
         references:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          link-to-url:
+            references:
+              url: "{value}"
         highly_variable:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          spell:
+            url: v1.2.1/logic/boolean
+            with:
+              true_value: "WAHR"
+              false_value: "FALSCH"
         EMT TFs:
           optional: false
           precision: 2
@@ -273,17 +259,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
         gene_name:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          link-to-url:
+            gene:
+              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
         highly_variable_rank:
           optional: false
           precision: 2
@@ -321,27 +299,11 @@ views:
     render-table:
       columns:
         highly_variable:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
-        "Unnamed: 9":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
-        "Unnamed: 8":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
+          spell:
+            url: v1.2.1/logic/boolean
+            with:
+              true_value: "WAHR"
+              false_value: "FALSCH"
         highly_variable_rank:
           optional: false
           precision: 2
@@ -367,17 +329,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
         gene_name:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          link-to-url:
+            gene:
+              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
         Neuron_pval:
           spell:
             url: v1.2.1/stats/p-value
@@ -396,28 +350,12 @@ views:
               range: []
               aux-domain-columns: ~
           plot-view-legend: false
-        "Unnamed: 10":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
-        "Unnamed: 7":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot-view-legend: false
         references:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          link-to-url:
+            references:
+              url: "{value}"
+        "regex('Unnamed.*')":
+          display-mode: hidden
   Suppl. Tab. 11:
     hidden: false
     dataset: Suppl. Tab. 11
@@ -425,17 +363,7 @@ views:
     render-table:
       columns:
         avg_log2FC:
-          optional: false
-          precision: 2
           display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
         p_val:
           spell:
             url: v1.2.1/stats/p-value
@@ -472,17 +400,7 @@ views:
             with:
               significance_threshold: 0.05
         Marker peaks epsilon progenitors:
-          optional: false
-          precision: 2
           display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
   Suppl. Tab. 3b-1:
     hidden: false
     dataset: Suppl. Tab. 3b-1
@@ -548,17 +466,9 @@ views:
     render-table:
       columns:
         moscot driver TFs delta:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          link-to-url:
+            gene:
+              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
         Delta_pull_ci_high:
           optional: false
           precision: 2
@@ -1403,17 +1313,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
         moscot driver genes epsilon progenitors:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          link-to-url:
+            gene:
+              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
   Suppl. Tab. 7:
     hidden: false
     dataset: Suppl. Tab. 7
@@ -1421,17 +1323,9 @@ views:
     render-table:
       columns:
         gene_short_name:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          link-to-url:
+            gene-card:
+              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
         highly_variable_rank:
           optional: false
           precision: 2
@@ -1457,34 +1351,20 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
         highly_variable:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          spell:
+            url: v1.2.1/logic/boolean
+            with:
+              true_value: "WAHR"
+              false_value: "FALSCH"
         Heart_pval:
           spell:
             url: v1.2.1/stats/p-value
             with:
               significance_threshold: 0.05
         references:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          link-to-url:
+            reference:
+              url: "{value}"
         Heart_corr:
           optional: false
           precision: 2
@@ -1616,17 +1496,9 @@ views:
               significance_threshold: 0.05
           plot-view-legend: false
         moscot driver genes Fev+ delta:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          link-to-url:
+            gene-card:
+              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
   Suppl. Tab. 4:
     hidden: false
     dataset: Suppl. Tab. 4
@@ -1722,29 +1594,9 @@ views:
     render-table:
       columns:
         Cell type:
-          optional: false
-          precision: 2
           display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
         marker genes:
-          optional: false
-          precision: 2
           display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
   Suppl. Tab. 14:
     hidden: false
     dataset: Suppl. Tab. 14
@@ -1764,17 +1616,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
         moscot driver genes Beta:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          link-to-url:
+            gene-card:
+              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
         Beta_pull_ci_high:
           optional: false
           precision: 2
@@ -1840,17 +1684,9 @@ views:
             with:
               significance_threshold: 0.05
         moscot driver TFs Fev+ delta:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          link-to-url:
+            gene-card:
+              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
         Fev_delta_pull_ci_high:
           optional: false
           precision: 2
@@ -2148,17 +1984,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
         moscot driver TFs Eps. progenitors:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          link-to-url:
+            gene-card:
+              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
         Eps_progenitors_pull_corr:
           optional: false
           precision: 2
@@ -2312,17 +2140,9 @@ views:
             with:
               significance_threshold: 0.05
         moscot driver genes delta cells:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          link-to-url:
+            gene-card:
+              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
         Delta_pull_ci_high:
           optional: false
           precision: 2
@@ -2460,23 +2280,15 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
         avg_log2FC:
-          optional: false
-          precision: 2
           display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
         p_val_adj:
+          precision: 2
           spell:
             url: v1.2.1/stats/p-value
             with:
               significance_threshold: 0.05
         p_val:
+          precision: 2
           spell:
             url: v1.2.1/stats/p-value
             with:
@@ -2494,17 +2306,7 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
         Marker peaks Fev+ Delta:
-          optional: false
-          precision: 2
           display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
   Suppl. Tab. 24:
     hidden: false
     dataset: Suppl. Tab. 24
@@ -2640,29 +2442,9 @@ views:
     render-table:
       columns:
         moscot driver TFs Epsilon:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              clamp: false
-              color-scheme: blues
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
-        "Unnamed: 0":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+         link-to-url:
+            gene-card:
+              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
         Epsilon_pull_pval:
           spell:
             url: v1.2.1/stats/p-value
@@ -2818,17 +2600,9 @@ views:
             with:
               significance_threshold: 0.05
         moscot driver genes Alpha:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          link-to-url:
+            gene-card:
+              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
         Alpha_pull_corr:
           optional: false
           precision: 2
@@ -2872,17 +2646,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
         moscot driver genes epsilon cells:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          link-to-url:
+            gene-card:
+              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
         Epsilon_pull_corr:
           optional: false
           precision: 2
