@@ -528,20 +528,10 @@ views:
     page-size: 20
     render-table:
       columns:
-        "Unnamed: 0":
-          display-mode: hidden
         Gene:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          link-to-url:
+            gene-card:
+              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
         Node_type:
           optional: false
           precision: 2
@@ -590,30 +580,8 @@ views:
               range: []
               aux-domain-columns: ~
           plot-view-legend: false
-        "Unnamed: 0.1":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
         Gene_signature_name:
-          optional: false
-          precision: 2
           display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
         GEX_celltype_Log2FC_Epsprogenitors:
           optional: false
           precision: 2
@@ -627,17 +595,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
         Region:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          link-to-url:
+            igv:
+              url: "https://igv.org/app/?locus={value}"
   Suppl. Tab. 31:
     hidden: false
     dataset: Suppl. Tab. 31
@@ -845,89 +805,19 @@ views:
     render-table:
       columns:
         Fev+Delta:
-          optional: false
-          precision: 2
           display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
         Fev+Delta|Ngn3high:
-          optional: false
-          precision: 2
           display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
         Fev+Delta|Epsprogenitors:
-          optional: false
-          precision: 2
           display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
         Fev+Delta|Ngn3high|Epsprogenitors:
-          optional: false
-          precision: 2
           display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
         Epsprogenitors:
-          optional: false
-          precision: 2
           display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
         Ngn3high|Epsprogenitors:
-          optional: false
-          precision: 2
           display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
         Ngn3high:
-          optional: false
-          precision: 2
           display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
   Suppl. Tab. 3a-3:
     hidden: false
     dataset: Suppl. Tab. 3a-3
@@ -1059,29 +949,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
         Region:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
-        "Unnamed: 0.1":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          link-to-url:
+            igv:
+              url: "https://igv.org/app/?locus={value}"
         GEX_celltype_Log2FC_Epsilon:
           optional: false
           precision: 2
@@ -1106,8 +976,6 @@ views:
               range: []
               aux-domain-columns: ~
           plot-view-legend: false
-        "Unnamed: 0":
-          display-mode: hidden
         GEX_celltype_Log2FC_Epsprogenitors:
           optional: false
           precision: 2
@@ -1133,29 +1001,11 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
         Gene:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          link-to-url:
+            gene-card:
+              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
         Gene_signature_name:
-          optional: false
-          precision: 2
           display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
   Suppl. Tab. 6-1:
     hidden: false
     dataset: Suppl. Tab. 6-1
@@ -1742,17 +1592,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
         Region:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          link-to-url:
+            igv:
+              url: "https://igv.org/app/?locus={value}"
         GEX_celltype_Log2FC_Delta:
           optional: false
           precision: 2
@@ -1790,29 +1632,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
         Gene:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
-        "Unnamed: 0":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          link-to-url:
+            gene-card:
+              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
         Node_type:
           optional: false
           precision: 2
@@ -1826,17 +1648,7 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
         Gene_signature_name:
-          optional: false
-          precision: 2
           display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
         GEX_celltype_Log2FC_Epsprogenitors:
           optional: false
           precision: 2
@@ -1855,30 +1667,8 @@ views:
     page-size: 20
     render-table:
       columns:
-        "Unnamed: 0.1":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
         Gene_signature_name:
-          optional: false
-          precision: 2
           display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
         GEX_celltype_Log2FC_Epsilon:
           optional: false
           precision: 2
@@ -1928,19 +1718,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
         Gene:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
-        "Unnamed: 0":
-          display-mode: hidden
+          link-to-url:
+            gene-card:
+              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
         GEX_celltype_Log2FC_Fev+Delta:
           optional: false
           precision: 2
@@ -1954,17 +1734,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
         Region:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          link-to-url:
+            igv:
+              url: "https://igv.org/app/?locus={value}"
   Suppl. Tab. 19:
     hidden: false
     dataset: Suppl. Tab. 19
@@ -2338,17 +2110,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
         Gene:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          link-to-url:
+            gene-card:
+              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
         GEX_celltype_Log2FC_Epsilon:
           optional: false
           precision: 2
@@ -2373,32 +2137,10 @@ views:
               range: []
               aux-domain-columns: ~
           plot-view-legend: false
-        "Unnamed: 0":
-          display-mode: hidden
-        "Unnamed: 0.1":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
         Region:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          link-to-url:
+            igv:
+              url: "https://igv.org/app/?locus={value}"
         GEX_celltype_Log2FC_Ngn3high:
           optional: false
           precision: 2
@@ -2424,17 +2166,7 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
         Gene_signature_name:
-          optional: false
-          precision: 2
           display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
   Suppl. Tab. 22:
     hidden: false
     dataset: Suppl. Tab. 22
@@ -2739,20 +2471,10 @@ views:
               range: []
               aux-domain-columns: ~
           plot-view-legend: false
-        "Unnamed: 0":
-          display-mode: hidden
         Gene:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          link-to-url:
+            gene-card:
+              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
         GEX_celltype_Log2FC_Delta:
           optional: false
           precision: 2
@@ -2778,41 +2500,11 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
         Region:
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
+          link-to-url:
+            igv:
+              url: "https://igv.org/app/?locus={value}"
         Gene_signature_name:
-          optional: false
-          precision: 2
           display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
-        "Unnamed: 0.1":
-          optional: false
-          precision: 2
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
-          plot-view-legend: false
   Suppl. Tab. 30:
     hidden: false
     dataset: Suppl. Tab. 30
