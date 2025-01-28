@@ -364,7 +364,10 @@ views:
     render-table:
       columns:
         avg_log2FC:
-          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: [ "white", "blue" ]
         p_val:
           spell:
             url: v1.2.1/stats/p-value
@@ -1861,7 +1864,10 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
         avg_log2FC:
-          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
         p_val_adj:
           precision: 2
           spell:

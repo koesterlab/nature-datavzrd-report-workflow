@@ -15,7 +15,7 @@ def process_csv_files(directory):
 
     for file in csv_files:
         file_path = os.path.join(directory, file)
-        updated_rows = []
+        rows = []
 
         with open(file_path, 'r') as csvfile:
             reader = csv.reader(csvfile, delimiter=';')
@@ -31,14 +31,13 @@ def process_csv_files(directory):
                             updated_row.append(cell)
                     else:
                         updated_row.append(cell)
-                updated_rows.append(updated_row)
+                rows.append(updated_row)
 
-        output_file = os.path.join(directory, f"processed_{file}")
-        with open(output_file, 'w', newline='') as csvfile:
+        with open(file_path, 'w', newline='') as csvfile:
             writer = csv.writer(csvfile, delimiter=';')
-            writer.writerows(updated_rows)
+            writer.writerows(rows)
 
-        print(f"Processed file saved as '{output_file}'.")
+        print(f"Processed file in place: '{file_path}'.")
 
 directory_name = 'bioinformatics'
 process_csv_files(directory_name)
