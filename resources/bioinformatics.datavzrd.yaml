@@ -36,6 +36,16 @@ datasets:
     separator: ;
     headers: 1
     offer-excel: false
+    links:
+      epsilon progenitors:
+        column: moscot driver TFs Epsilon
+        table-row: "Suppl. Tab. 19/moscot driver TFs Eps. progenitors"
+      fev+delta:
+        column: moscot driver TFs Epsilon
+        table-row: "Suppl. Tab. 20/moscot driver TFs Fev+ delta"
+      delta cells:
+        column: moscot driver TFs Epsilon
+        table-row: "Suppl. Tab. 21/moscot driver TFs delta"
   Suppl. Tab. 2:
     path: bioinformatics/Suppl. Tab. 2.csv
     separator: ;
@@ -161,6 +171,16 @@ datasets:
     separator: ;
     headers: 1
     offer-excel: false
+    links:
+      fev+delta:
+        column: moscot driver TFs Eps. progenitors
+        table-row: "Suppl. Tab. 20/moscot driver TFs Fev+ delta"
+      delta cells:
+        column: moscot driver TFs Eps. progenitors
+        table-row: "Suppl. Tab. 21/moscot driver TFs delta"
+      epsilon cells:
+        column: moscot driver TFs Eps. progenitors
+        table-row: "Suppl. Tab. 22/moscot driver TFs Epsilon"
   Suppl. Tab. 33:
     path: bioinformatics/Suppl. Tab. 33.csv
     separator: ;
@@ -186,6 +206,16 @@ datasets:
     separator: ;
     headers: 1
     offer-excel: false
+    links:
+      epsilon progenitors:
+        column: moscot driver TFs Fev+ delta
+        table-row: "Suppl. Tab. 19/moscot driver TFs Eps. progenitors"
+      delta cells:
+        column: moscot driver TFs Fev+ delta
+        table-row: "Suppl. Tab. 21/moscot driver TFs delta"
+      epsilon cells:
+        column: moscot driver TFs Fev+ delta
+        table-row: "Suppl. Tab. 22/moscot driver TFs Epsilon"
   Suppl. Tab. 5:
     path: bioinformatics/Suppl. Tab. 5.csv
     separator: ;
@@ -206,6 +236,16 @@ datasets:
     separator: ;
     headers: 1
     offer-excel: false
+    links:
+      epsilon progenitors:
+        column: moscot driver TFs delta
+        table-row: "Suppl. Tab. 19/moscot driver TFs Eps. progenitors"
+      fev+delta:
+        column: moscot driver TFs delta
+        table-row: "Suppl. Tab. 20/moscot driver TFs Fev+ delta"
+      epsilon cells:
+        column: moscot driver TFs delta
+        table-row: "Suppl. Tab. 22/moscot driver TFs Epsilon"
   Suppl. Tab. 6-2:
     path: bioinformatics/Suppl. Tab. 6-2.csv
     separator: ;
