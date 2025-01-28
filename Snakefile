@@ -20,4 +20,4 @@ rule datavzrd:
     log:
         "logs/datavzrd_report/{discipline}.log"
     wrapper:
-        "v5.5.0-39-g561ea6c/utils/datavzrd"
+        "v5.5.2-17-g33d5b76/utils/datavzrd"

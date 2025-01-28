@@ -56,6 +56,22 @@ datasets:
     separator: ;
     headers: 1
     offer-excel: false
+    links:
+      alpha cells:
+        column: moscot driver genes epsilon progenitors
+        table-row: "Suppl. Tab. 13/moscot driver genes Alpha"
+      beta cells:
+        column: moscot driver genes epsilon progenitors
+        table-row: "Suppl. Tab. 14/moscot driver genes Beta"
+      fev+delta:
+        column: moscot driver genes epsilon progenitors
+        table-row: "Suppl. Tab. 16/moscot driver genes Fev+ delta"
+      delta cells:
+        column: moscot driver genes epsilon progenitors
+        table-row: "Suppl. Tab. 17/moscot driver genes delta cells"
+      epsilon cells:
+        column: moscot driver genes epsilon progenitors
+        table-row: "Suppl. Tab. 18/moscot driver genes epsilon cells"
   Suppl. Tab. 4:
     path: bioinformatics/Suppl. Tab. 4.csv
     separator: ;
@@ -71,6 +87,22 @@ datasets:
     separator: ;
     headers: 1
     offer-excel: false
+    links:
+      alpha cells:
+        column: moscot driver genes epsilon cells
+        table-row: "Suppl. Tab. 13/moscot driver genes Alpha"
+      beta cells:
+        column: moscot driver genes epsilon cells
+        table-row: "Suppl. Tab. 14/moscot driver genes Beta"
+      epsilon progenitors:
+        column: moscot driver genes epsilon cells
+        table-row: "Suppl. Tab. 15/moscot driver genes epsilon progenitors"
+      fev+delta:
+        column: moscot driver genes epsilon cells
+        table-row: "Suppl. Tab. 16/moscot driver genes Fev+ delta"
+      delta cells:
+        column: moscot driver genes epsilon cells
+        table-row: "Suppl. Tab. 17/moscot driver genes delta cells"
   Suppl. Tab. 26:
     path: bioinformatics/Suppl. Tab. 26.csv
     separator: ;
@@ -86,6 +118,22 @@ datasets:
     separator: ;
     headers: 1
     offer-excel: false
+    links:
+      alpha cells:
+        column: moscot driver genes Fev+ delta
+        table-row: "Suppl. Tab. 13/moscot driver genes Alpha"
+      beta cells:
+        column: moscot driver genes Fev+ delta
+        table-row: "Suppl. Tab. 14/moscot driver genes Beta"
+      epsilon progenitors:
+        column: moscot driver genes Fev+ delta
+        table-row: "Suppl. Tab. 15/moscot driver genes epsilon progenitors"
+      delta cells:
+        column: moscot driver genes Fev+ delta
+        table-row: "Suppl. Tab. 17/moscot driver genes delta cells"
+      epsilon cells:
+        column: moscot driver genes Fev+ delta
+        table-row: "Suppl. Tab. 18/moscot driver genes epsilon cells"
   Suppl. Tab. 1a:
     path: bioinformatics/Suppl. Tab. 1a.csv
     separator: ;
@@ -101,11 +149,43 @@ datasets:
     separator: ;
     headers: 1
     offer-excel: false
+    links:
+      alpha cells:
+        column: moscot driver genes Beta
+        table-row: "Suppl. Tab. 13/moscot driver genes Alpha"
+      epsilon progenitors:
+        column: moscot driver genes Beta
+        table-row: "Suppl. Tab. 15/moscot driver genes epsilon progenitors"
+      fev+delta:
+        column: moscot driver genes Beta
+        table-row: "Suppl. Tab. 16/moscot driver genes Fev+ delta"
+      delta cells:
+        column: moscot driver genes Beta
+        table-row: "Suppl. Tab. 17/moscot driver genes delta cells"
+      epsilon cells:
+        column: moscot driver genes Beta
+        table-row: "Suppl. Tab. 18/moscot driver genes epsilon cells"
   Suppl. Tab. 17:
     path: bioinformatics/Suppl. Tab. 17.csv
     separator: ;
     headers: 1
     offer-excel: false
+    links:
+      alpha cells:
+        column: moscot driver genes delta cells
+        table-row: "Suppl. Tab. 13/moscot driver genes Alpha"
+      beta cells:
+        column: moscot driver genes delta cells
+        table-row: "Suppl. Tab. 14/moscot driver genes Beta"
+      epsilon progenitors:
+        column: moscot driver genes delta cells
+        table-row: "Suppl. Tab. 15/moscot driver genes epsilon progenitors"
+      fev+delta:
+        column: moscot driver genes delta cells
+        table-row: "Suppl. Tab. 16/moscot driver genes Fev+ delta"
+      epsilon cells:
+        column: moscot driver genes delta cells
+        table-row: "Suppl. Tab. 18/moscot driver genes epsilon cells"
   Suppl. Tab. 11:
     path: bioinformatics/Suppl. Tab. 11.csv
     separator: ;
@@ -201,6 +281,22 @@ datasets:
     separator: ;
     headers: 1
     offer-excel: false
+    links:
+      beta cells:
+        column: moscot driver genes Alpha
+        table-row: "Suppl. Tab. 14/moscot driver genes Beta"
+      epsilon progenitors:
+        column: moscot driver genes Alpha
+        table-row: "Suppl. Tab. 15/moscot driver genes epsilon progenitors"
+      fev+delta:
+        column: moscot driver genes Alpha
+        table-row: "Suppl. Tab. 16/moscot driver genes Fev+ delta"
+      delta cells:
+        column: moscot driver genes Alpha
+        table-row: "Suppl. Tab. 17/moscot driver genes delta cells"
+      epsilon cells:
+        column: moscot driver genes Alpha
+        table-row: "Suppl. Tab. 18/moscot driver genes epsilon cells"
   Suppl. Tab. 20:
     path: bioinformatics/Suppl. Tab. 20.csv
     separator: ;
