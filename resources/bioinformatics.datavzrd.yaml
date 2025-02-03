@@ -1,5 +1,5 @@
 ---
-name: Datavzrd Report
+name: "Moscot Supplementary Tables (CC BY 4.0)"
 default-view: "Suppl. Tab. 1a"
 datasets:
   Suppl. Tab. 9:
@@ -379,7 +379,7 @@ views:
               url: "{value}"
         highly_variable:
           spell:
-            url: "https://raw.githubusercontent.com/datavzrd/datavzrd-spells/refs/heads/bool-fix/logic/boolean/spell.yaml"
+            url: v1.2.2/logic/boolean
             with:
               true_value: "WAHR"
               false_value: "FALSCH"
@@ -407,7 +407,6 @@ views:
             heatmap:
               scale: linear
               clamp: false
-              
               range: []
               aux-domain-columns: ~
           plot-view-legend: false
@@ -438,7 +437,7 @@ views:
       columns:
         highly_variable:
           spell:
-            url: "https://raw.githubusercontent.com/datavzrd/datavzrd-spells/refs/heads/bool-fix/logic/boolean/spell.yaml"
+            url: v1.2.2/logic/boolean
             with:
               true_value: "WAHR"
               false_value: "FALSCH"
@@ -666,7 +665,7 @@ views:
       columns:
         Gene:
           link-to-url:
-            gene-card:
+            ensembl:
               url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         Node_type:
           optional: false
@@ -839,20 +838,10 @@ views:
     page-size: 20
     render-table:
       columns:
-        Fev+Delta:
-          display-mode: normal
-        Fev+Delta|Ngn3high:
-          display-mode: normal
-        Fev+Delta|Epsprogenitors:
-          display-mode: normal
-        Fev+Delta|Ngn3high|Epsprogenitors:
-          display-mode: normal
-        Epsprogenitors:
-          display-mode: normal
-        Ngn3high|Epsprogenitors:
-          display-mode: normal
-        Ngn3high:
-          display-mode: normal
+        regex('.*'):
+          link-to-url:
+            ensembl:
+              url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
   Suppl. Tab. 3a-3:
     desc: "Parameter selection for moscot.time on embryogenesis atlas"
     hidden: false
@@ -1030,7 +1019,7 @@ views:
           plot-view-legend: false
         Gene:
           link-to-url:
-            gene-card:
+            ensembl:
               url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         Gene_signature_name:
           display-mode: normal
@@ -1198,7 +1187,7 @@ views:
       columns:
         gene_short_name:
           link-to-url:
-            gene-card:
+            ensembl:
               url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         highly_variable_rank:
           optional: false
@@ -1225,7 +1214,7 @@ views:
           plot-view-legend: false
         highly_variable:
           spell:
-            url: "https://raw.githubusercontent.com/datavzrd/datavzrd-spells/refs/heads/bool-fix/logic/boolean/spell.yaml"
+            url: v1.2.2/logic/boolean
             with:
               true_value: "WAHR"
               false_value: "FALSCH"
@@ -1365,7 +1354,7 @@ views:
           plot-view-legend: false
         moscot driver genes Fev+ delta:
           link-to-url:
-            gene-card:
+            ensembl:
               url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
   Suppl. Tab. 4:
     desc: "Selected marker/driver genes for various cell types in mouse embryogenesis atlas"
@@ -1376,7 +1365,7 @@ views:
       columns:
         Genes:
           link-to-url:
-            gene-card:
+            ensembl:
               url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         PMID:
           custom-path: "resources/functions/pmid.js"
@@ -1394,7 +1383,7 @@ views:
           plot-view-legend: false
         Highly-Variable:
           spell:
-            url: "https://raw.githubusercontent.com/datavzrd/datavzrd-spells/refs/heads/bool-fix/logic/boolean/spell.yaml"
+            url: v1.2.2/logic/boolean
             with:
               true_value: "Yes"
               false_value: "No"
@@ -1486,7 +1475,7 @@ views:
           plot-view-legend: false
         moscot driver genes Beta:
           link-to-url:
-            gene-card:
+            ensembl:
               url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         Beta_pull_ci_high:
           optional: false
@@ -1551,7 +1540,7 @@ views:
               significance_threshold: 0.05
         moscot driver TFs Fev+ delta:
           link-to-url:
-            gene-card:
+            ensembl:
               url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         Fev_delta_pull_ci_high:
           optional: false
@@ -1643,7 +1632,7 @@ views:
           plot-view-legend: false
         Gene:
           link-to-url:
-            gene-card:
+            ensembl:
               url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         Node_type:
           optional: false
@@ -1726,7 +1715,7 @@ views:
           plot-view-legend: false
         Gene:
           link-to-url:
-            gene-card:
+            ensembl:
               url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         GEX_celltype_Log2FC_Fev+Delta:
           optional: false
@@ -1763,7 +1752,7 @@ views:
           plot-view-legend: false
         moscot driver TFs Eps. progenitors:
           link-to-url:
-            gene-card:
+            ensembl:
               url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         Eps_progenitors_pull_corr:
           optional: false
@@ -1868,7 +1857,7 @@ views:
               significance_threshold: 0.05
         moscot driver genes delta cells:
           link-to-url:
-            gene-card:
+            ensembl:
               url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         Delta_pull_ci_high:
           optional: false
@@ -2062,7 +2051,7 @@ views:
           plot-view-legend: false
         Gene:
           link-to-url:
-            gene-card:
+            ensembl:
               url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         GEX_celltype_Log2FC_Epsilon:
           optional: false
@@ -2123,7 +2112,7 @@ views:
       columns:
         moscot driver TFs Epsilon:
          link-to-url:
-            gene-card:
+            ensembl:
               url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         Epsilon_pull_pval:
           spell:
@@ -2272,7 +2261,7 @@ views:
               significance_threshold: 0.05
         moscot driver genes Alpha:
           link-to-url:
-            gene-card:
+            ensembl:
               url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         Alpha_pull_corr:
           optional: false
@@ -2316,7 +2305,7 @@ views:
           plot-view-legend: false
         moscot driver genes epsilon cells:
           link-to-url:
-            gene-card:
+            ensembl:
               url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         Epsilon_pull_corr:
           optional: false
@@ -2407,7 +2396,7 @@ views:
           plot-view-legend: false
         Gene:
           link-to-url:
-            gene-card:
+            ensembl:
               url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         GEX_celltype_Log2FC_Delta:
           optional: false
@@ -2517,7 +2506,7 @@ views:
               significance_threshold: 0.05
         gene_name:
           link-to-url:
-            gene-card:
+            ensembl:
                 url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         Hnf4a_push_corr:
           optional: false
