@@ -728,7 +728,7 @@ views:
         Region:
           link-to-url:
             igv:
-              url: "https://igv.org/app/?locus={value}"
+              url: "https://igv.org/app/?genome=mm39&locus={value}"
   Suppl. Tab. 31:
     desc: "Differentiable motif activity epsilon cells in pancreatic endocrinogenesis"
     hidden: false
@@ -971,7 +971,7 @@ views:
         Region:
           link-to-url:
             igv:
-              url: "https://igv.org/app/?locus={value}"
+              url: "https://igv.org/app/?genome=mm39&locus={value}"
         GEX_celltype_Log2FC_Epsilon:
           optional: false
           precision: 2
@@ -1596,7 +1596,7 @@ views:
         Region:
           link-to-url:
             igv:
-              url: "https://igv.org/app/?locus={value}"
+              url: "https://igv.org/app/?genome=mm39&locus={value}"
         GEX_celltype_Log2FC_Delta:
           optional: false
           precision: 2
@@ -1731,7 +1731,7 @@ views:
         Region:
           link-to-url:
             igv:
-              url: "https://igv.org/app/?locus={value}"
+              url: "https://igv.org/app/?genome=mm39&locus={value}"
   Suppl. Tab. 19:
     desc: "Driver TFs of epsilon progenitors identified with moscot in pancreatic endocrinogenesis"
     hidden: false
@@ -2078,7 +2078,7 @@ views:
         Region:
           link-to-url:
             igv:
-              url: "https://igv.org/app/?locus={value}"
+              url: "https://igv.org/app/?genome=mm39&locus={value}"
         GEX_celltype_Log2FC_Ngn3high:
           optional: false
           precision: 2
@@ -2423,7 +2423,7 @@ views:
         Region:
           link-to-url:
             igv:
-              url: "https://igv.org/app/?locus={value}"
+              url: "https://igv.org/app/?genome=mm39&locus={value}"
         Gene_signature_name:
           display-mode: normal
   Suppl. Tab. 30:
