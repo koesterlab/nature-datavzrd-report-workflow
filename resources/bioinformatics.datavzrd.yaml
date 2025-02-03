@@ -1,5 +1,6 @@
 ---
 name: Datavzrd Report
+default-view: "Suppl. Tab. 1a"
 datasets:
   Suppl. Tab. 9:
     path: bioinformatics/Suppl. Tab. 9.csv
@@ -378,7 +379,7 @@ views:
               url: "{value}"
         highly_variable:
           spell:
-            url: v1.2.1/logic/boolean
+            url: "https://raw.githubusercontent.com/datavzrd/datavzrd-spells/refs/heads/bool-fix/logic/boolean/spell.yaml"
             with:
               true_value: "WAHR"
               false_value: "FALSCH"
@@ -397,7 +398,7 @@ views:
         gene_name:
           link-to-url:
             gene:
-              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
+              url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         highly_variable_rank:
           optional: false
           precision: 2
@@ -437,7 +438,7 @@ views:
       columns:
         highly_variable:
           spell:
-            url: v1.2.1/logic/boolean
+            url: "https://raw.githubusercontent.com/datavzrd/datavzrd-spells/refs/heads/bool-fix/logic/boolean/spell.yaml"
             with:
               true_value: "WAHR"
               false_value: "FALSCH"
@@ -467,7 +468,7 @@ views:
         gene_name:
           link-to-url:
             gene:
-              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
+              url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         Neuron_pval:
           spell:
             url: v1.2.1/stats/p-value
@@ -606,7 +607,7 @@ views:
         moscot driver TFs delta:
           link-to-url:
             gene:
-              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
+              url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         Delta_pull_ci_high:
           optional: false
           precision: 2
@@ -666,7 +667,7 @@ views:
         Gene:
           link-to-url:
             gene-card:
-              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
+              url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         Node_type:
           optional: false
           precision: 2
@@ -1030,7 +1031,7 @@ views:
         Gene:
           link-to-url:
             gene-card:
-              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
+              url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         Gene_signature_name:
           display-mode: normal
   Suppl. Tab. 6-1:
@@ -1043,7 +1044,7 @@ views:
         gene_name:
           link-to-url:
             gene:
-              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
+              url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         Liver_pull_corr:
           optional: false
           precision: 2
@@ -1187,7 +1188,7 @@ views:
         moscot driver genes epsilon progenitors:
           link-to-url:
             gene:
-              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
+              url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
   Suppl. Tab. 7:
     desc: "Driver genes of the heart identified with moscot.spatiotemporal"
     hidden: false
@@ -1198,7 +1199,7 @@ views:
         gene_short_name:
           link-to-url:
             gene-card:
-              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
+              url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         highly_variable_rank:
           optional: false
           precision: 2
@@ -1224,7 +1225,7 @@ views:
           plot-view-legend: false
         highly_variable:
           spell:
-            url: v1.2.1/logic/boolean
+            url: "https://raw.githubusercontent.com/datavzrd/datavzrd-spells/refs/heads/bool-fix/logic/boolean/spell.yaml"
             with:
               true_value: "WAHR"
               false_value: "FALSCH"
@@ -1365,7 +1366,7 @@ views:
         moscot driver genes Fev+ delta:
           link-to-url:
             gene-card:
-              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
+              url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
   Suppl. Tab. 4:
     desc: "Selected marker/driver genes for various cell types in mouse embryogenesis atlas"
     hidden: false
@@ -1376,7 +1377,7 @@ views:
         Genes:
           link-to-url:
             gene-card:
-              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
+              url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         PMID:
           custom-path: "resources/functions/pmid.js"
         Cell Type:
@@ -1393,7 +1394,7 @@ views:
           plot-view-legend: false
         Highly-Variable:
           spell:
-            url: v1.2.1/logic/boolean
+            url: "https://raw.githubusercontent.com/datavzrd/datavzrd-spells/refs/heads/bool-fix/logic/boolean/spell.yaml"
             with:
               true_value: "Yes"
               false_value: "No"
@@ -1486,7 +1487,7 @@ views:
         moscot driver genes Beta:
           link-to-url:
             gene-card:
-              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
+              url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         Beta_pull_ci_high:
           optional: false
           precision: 2
@@ -1551,7 +1552,7 @@ views:
         moscot driver TFs Fev+ delta:
           link-to-url:
             gene-card:
-              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
+              url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         Fev_delta_pull_ci_high:
           optional: false
           precision: 2
@@ -1643,7 +1644,7 @@ views:
         Gene:
           link-to-url:
             gene-card:
-              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
+              url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         Node_type:
           optional: false
           precision: 2
@@ -1726,7 +1727,7 @@ views:
         Gene:
           link-to-url:
             gene-card:
-              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
+              url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         GEX_celltype_Log2FC_Fev+Delta:
           optional: false
           precision: 2
@@ -1763,7 +1764,7 @@ views:
         moscot driver TFs Eps. progenitors:
           link-to-url:
             gene-card:
-              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
+              url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         Eps_progenitors_pull_corr:
           optional: false
           precision: 2
@@ -1868,7 +1869,7 @@ views:
         moscot driver genes delta cells:
           link-to-url:
             gene-card:
-              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
+              url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         Delta_pull_ci_high:
           optional: false
           precision: 2
@@ -2062,7 +2063,7 @@ views:
         Gene:
           link-to-url:
             gene-card:
-              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
+              url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         GEX_celltype_Log2FC_Epsilon:
           optional: false
           precision: 2
@@ -2123,7 +2124,7 @@ views:
         moscot driver TFs Epsilon:
          link-to-url:
             gene-card:
-              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
+              url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         Epsilon_pull_pval:
           spell:
             url: v1.2.1/stats/p-value
@@ -2272,7 +2273,7 @@ views:
         moscot driver genes Alpha:
           link-to-url:
             gene-card:
-              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
+              url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         Alpha_pull_corr:
           optional: false
           precision: 2
@@ -2316,7 +2317,7 @@ views:
         moscot driver genes epsilon cells:
           link-to-url:
             gene-card:
-              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
+              url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         Epsilon_pull_corr:
           optional: false
           precision: 2
@@ -2407,7 +2408,7 @@ views:
         Gene:
           link-to-url:
             gene-card:
-              url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
+              url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         GEX_celltype_Log2FC_Delta:
           optional: false
           precision: 2
@@ -2517,7 +2518,7 @@ views:
         gene_name:
           link-to-url:
             gene-card:
-                url: "https://www.genecards.org/cgi-bin/carddisp.pl?gene={value}"
+                url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
         Hnf4a_push_corr:
           optional: false
           precision: 2
