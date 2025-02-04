@@ -1,0 +1,617 @@
+---
+name: "A multi-analytical study of the Montelirio beaded attires: Marine resources, sumptuary crafts, and female power in copper age Iberia"
+datasets:
+  adp1917_data_s3:
+    path: anthropology/adp1917_data_s3.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  adp1917_data_s2:
+    path: anthropology/adp1917_data_s2.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  adp1917_data_s1:
+    path: anthropology/adp1917_data_s1.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Montelirio tholos:
+    path: anthropology/Montelirio tholos.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  PP4-Montelirio:
+    path: anthropology/PP4-Montelirio.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  Shell-beads_ALL_Results:
+    path: anthropology/Shell-beads_ALL_Results.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+max-in-memory-rows: 20000
+views:
+  adp1917_data_s1:
+    hidden: false
+    dataset: adp1917_data_s1
+    page-size: 30
+    render-table:
+      columns:
+        notes:
+          display-mode: detail
+        INDIVIDUAL/CLOTH (PAÑO):
+          display-mode: normal
+        WEIGHT (g):
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        DIAMAX (mm):
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        MAX THICKNESS (mm):
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        "SAMPLE #":
+          display-mode: normal
+        DIAMINPER (mm):
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        DIAMAXPER (mm):
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+  Shell-beads_ALL_Results:
+    hidden: false
+    dataset: Shell-beads_ALL_Results
+    page-size: 30
+    render-table:
+      columns:
+        material:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        F14C_sigma:
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        r_date_sigma:
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        F14C:
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        country:
+          display-mode: normal
+        site:
+          display-mode: normal
+        region:
+          display-mode: hidden
+        species:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        sample:
+          display-mode: normal
+        labcode:
+          display-mode: normal
+        d13C:
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        r_date:
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+  Montelirio tholos:
+    hidden: false
+    dataset: Montelirio tholos
+    page-size: 30
+    render-table:
+      columns:
+        Radiocarbon age (BP) NO correction - date:
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Radiocarbon age (BP) NO correction - date_sigma:
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Radiocarbon age (BP) - date_sigma:
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        δ15N (‰):
+          display-mode: normal
+          custom-plot:
+            data: |
+              function(value, row) {
+                  if (value === "") {
+                      return [];
+                  }
+
+                  value = value.replace(/[−]/g, '-');
+                  const parts = value.toString().split(/[^\d\.\-]+/).filter(Boolean);
+
+                  if (parts.length === 2) {
+                      const baseValue = parseFloat(parts[0]);
+                      const range = parseFloat(parts[1]);
+                      let result = [
+                          {"min": baseValue - range, "max": baseValue + range, "type": "range"},
+                          {"value": baseValue, "type": "single"}
+                      ];
+                      
+                      return result;
+                  } else if (parts.length === 1) {
+                      // If there's only one value, just return the base value as a single value
+                      return [{"value": parseFloat(parts[0]), "type": "single"}];
+                  } else {
+                      // If there is no value or an empty value, return an empty array
+                      return [{"value": "No data"}];
+                  }
+              }
+            spec: |
+              {
+                  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+                  "width": 50,
+                  "height": 10,
+                  "encoding": {
+                      "x": {
+                          "field": "value",
+                          "type": "quantitative",
+                          "scale": {"domain": [7, 13]},
+                          "axis": {
+                              "title": null,
+                              "ticks": false,
+                              "labels": false,
+                              "grid": false,
+                              "offset": -11
+                          }
+                      },
+                      "y": {"value": 0, "scale": {"domain": [0, 1]}}
+                  },
+                  "layer": [
+                      {
+                          "mark": "rule",
+                          "encoding": {
+                              "strokeWidth": {"value": 10},
+                              "opacity": {"value": 0.5},
+                              "x": {"field": "min", "type": "quantitative"},
+                              "x2": {"field": "max", "type": "quantitative"},
+                              "color": {
+                                  "value": "red"
+                              }
+                          },
+                          "transform": [
+                              {"filter": "datum.type === 'range'"}
+                          ]
+                      },
+                      {
+                          "mark": "tick",
+                          "encoding": {
+                              "x": {"field": "value", "type": "quantitative"},
+                              "color": {
+                                  "value": "steelblue"
+                              }
+                          },
+                          "transform": [
+                              {"filter": "datum.type === 'single'"}
+                          ]
+                      },
+                      {
+                          "mark": {"type": "text", "yOffset": -8, "xOffset": 12},
+                          "encoding": {"x": {"value": 0}, "text": {"field": "value"}},
+                          "transform": [{"filter": "datum.type === 'single'"}]
+                      }
+                  ],
+                  "config": {
+                      "tick": {"thickness": 2},
+                      "background": null,
+                      "style": {"cell": {"stroke": "transparent"}}
+                  }
+              }
+        Reference:
+          link-to-url:
+            scholar:
+              url: "https://scholar.google.com/scholar?q={value}"
+        "Calibrated. Shell Delta_R correction  -108 ± 31 14C yr (Martins & Soares 2013) - 95,4 %":
+          display-mode: normal
+        Laboratory Number:
+          display-mode: normal
+        Material:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Context:
+          display-mode: normal
+        "Calibrated. Shell Delta_R correction  -108 ± 31 14C yr (Martins & Soares 2013) - 68,3 %":
+          display-mode: normal
+        Location:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        δ13C (‰):
+          display-mode: normal
+          custom-plot:
+            data: |
+              function(value, row) {
+                  if (value === "") {
+                      return [];
+                  }
+              
+                  value = value.replace(/[−]/g, '-');
+                  const parts = value.toString().split(/[^\d\.\-]+/).filter(Boolean);
+              
+                  if (parts.length === 2) {
+                      const baseValue = parseFloat(parts[0]);
+                      const range = parseFloat(parts[1]);
+                      let result = [
+                          {"min": baseValue - range, "max": baseValue + range, "type": "range"},
+                          {"value": baseValue, "type": "single"}
+                      ];
+                  
+                      return result;
+                  } else if (parts.length === 1) {
+                      // If there's only one value, just return the base value as a single value
+                      return [{"value": parseFloat(parts[0]), "type": "single"}];
+                  } else {
+                      // If there is no value or an empty value, return an empty array
+                      return [];
+                  }
+              }
+            spec: |
+              {
+                  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+                  "width": 50,
+                  "height": 10,
+                  "encoding": {
+                      "x": {
+                          "field": "value",
+                          "type": "quantitative",
+                          "scale": {"domain": [-25, 3]},
+                          "axis": {
+                              "title": null,
+                              "ticks": false,
+                              "labels": false,
+                              "grid": false,
+                              "offset": -11
+                          }
+                      },
+                      "y": {"value": 0, "scale": {"domain": [0, 1]}}
+                  },
+                  "layer": [
+                      {
+                          "mark": "rule",
+                          "encoding": {
+                              "strokeWidth": {"value": 10},
+                              "opacity": {"value": 0.5},
+                              "x": {"field": "min", "type": "quantitative"},
+                              "x2": {"field": "max", "type": "quantitative"},
+                              "color": {
+                                  "value": "red"
+                              }
+                          },
+                          "transform": [
+                              {"filter": "datum.type === 'range'"}
+                          ]
+                      },
+                      {
+                          "mark": "tick",
+                          "encoding": {
+                              "x": {"field": "value", "type": "quantitative"},
+                              "color": {
+                                  "value": "steelblue"
+                              }
+                          },
+                          "transform": [
+                              {"filter": "datum.type === 'single'"}
+                          ]
+                      },
+                      {
+                          "mark": {"type": "text", "yOffset": -8, "xOffset": 12},
+                          "encoding": {"x": {"value": 0}, "text": {"field": "value"}},
+                          "transform": [{"filter": "datum.type === 'single'"}]
+                      }
+                  ],
+                  "config": {
+                      "tick": {"thickness": 2},
+                      "background": null,
+                      "style": {"cell": {"stroke": "transparent"}}
+                  }
+              }
+        "C:N":
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Identifier:
+          display-mode: normal
+        Radiocarbon age (BP) - date:
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+  adp1917_data_s3:
+    hidden: false
+    dataset: adp1917_data_s3
+    page-size: 30
+    render-table:
+      columns:
+        MAX THICKNESS (mm):
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        WEIGHT (g):
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        DIAMAX (mm):
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        DIAMINPER (mm):
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        INDIVIDUAL/CLOTH (PAÑO):
+          display-mode: normal
+        DIAMAXPER (mm):
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        "SAMPLE #":
+          display-mode: normal
+  adp1917_data_s2:
+    hidden: false
+    dataset: adp1917_data_s2
+    page-size: 30
+    render-table:
+      columns:
+        DIAMAXPER (mm):
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Notes:
+          display-mode: detail
+        MAX THICKNESS (mm):
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        INDIVIDUAL/CLOTH (PAÑO):
+          display-mode: normal
+        DIAMAX (mm):
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        WEIGHT (g):
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        "SAMPLE #":
+          display-mode: normal
+        DIAMINPER (mm):
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+  PP4-Montelirio:
+    hidden: false
+    dataset: PP4-Montelirio
+    page-size: 30
+    render-table:
+      columns:
+        Location:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Material:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Radiocarbon age (BP) NO correction - date:
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Radiocarbon age (BP) NO correction - date_sigma:
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Laboratory Number:
+          display-mode: normal
+        δ15N (‰):
+          precision: 2
+        Context:
+          display-mode: normal
+        "C:N":
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        "Calibrated. Shell Delta_R correction  -108 ± 31 14C yr (Martins & Soares 2013) - 95,4 %":
+          display-mode: normal
+        Radiocarbon age (BP) - date:
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        "Calibrated. Shell Delta_R correction  -108 ± 31 14C yr (Martins & Soares 2013) - 68,3 %":
+          display-mode: normal
+        Identifier:
+          display-mode: normal
+        δ13C (‰):
+          display-mode: normal
+          custom-plot:
+            data: |
+              function(value, row) {
+                  if (value === "") {
+                      return [];
+                  }
+              
+                  value = value.replace(/[−]/g, '-');
+                  const parts = value.toString().split(/[^\d\.\-]+/).filter(Boolean);
+              
+                  if (parts.length === 2) {
+                      const baseValue = parseFloat(parts[0]);
+                      const range = parseFloat(parts[1]);
+                      let result = [
+                          {"min": baseValue - range, "max": baseValue + range, "type": "range"},
+                          {"value": baseValue, "type": "single"}
+                      ];
+                      
+                      return result;
+                  } else if (parts.length === 1) {
+                      // If there's only one value, just return the base value as a single value
+                      return [{"value": parseFloat(parts[0]), "type": "single"}];
+                  } else {
+                      // If there is no value or an empty value, return an empty array
+                      return [];
+                  }
+              }
+            spec: |
+              {
+                  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+                  "width": 50,
+                  "height": 10,
+                  "encoding": {
+                      "x": {
+                          "field": "value",
+                          "type": "quantitative",
+                          "scale": {"domain": [-25, 3]},
+                          "axis": {
+                              "title": null,
+                              "ticks": false,
+                              "labels": false,
+                              "grid": false,
+                              "offset": -11
+                          }
+                      },
+                      "y": {"value": 0, "scale": {"domain": [0, 1]}}
+                  },
+                  "layer": [
+                      {
+                          "mark": "rule",
+                          "encoding": {
+                              "strokeWidth": {"value": 10},
+                              "opacity": {"value": 0.5},
+                              "x": {"field": "min", "type": "quantitative"},
+                              "x2": {"field": "max", "type": "quantitative"},
+                              "color": {
+                                  "value": "red"
+                              }
+                          },
+                          "transform": [
+                              {"filter": "datum.type === 'range'"}
+                          ]
+                      },
+                      {
+                          "mark": "tick",
+                          "encoding": {
+                              "x": {"field": "value", "type": "quantitative"},
+                              "color": {
+                                  "value": "steelblue"
+                              }
+                          },
+                          "transform": [
+                              {"filter": "datum.type === 'single'"}
+                          ]
+                      },
+                      {
+                          "mark": {"type": "text", "yOffset": -8, "xOffset": 12},
+                          "encoding": {"x": {"value": 0}, "text": {"field": "value"}},
+                          "transform": [{"filter": "datum.type === 'single'"}]
+                      }
+                  ],
+                  "config": {
+                      "tick": {"thickness": 2},
+                      "background": null,
+                      "style": {"cell": {"stroke": "transparent"}}
+                  }
+              }
+        Radiocarbon age (BP) - date_sigma:
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Reference:
+          link-to-url:
+            scholar:
+              url: "https://scholar.google.com/scholar?q={value}"
+webview-controls: false
