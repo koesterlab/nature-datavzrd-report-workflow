@@ -33,7 +33,8 @@ datasets:
     offer-excel: false
 max-in-memory-rows: 20000
 views:
-  adp1917_data_s1:
+  "Morphometric data (large chamber)":
+    desc: "Morphometric data for Montelirio Large Chamber"
     hidden: false
     dataset: adp1917_data_s1
     page-size: 30
@@ -71,6 +72,12 @@ views:
               scale: linear
               range: ["white", "blue"]
   Shell-beads_ALL_Results:
+    desc: |
+      Local marine correction can be very tricky. Since we know that dR values change through time, it is important for archaeologists to quantify this value themselves by dating paired marine and terrestrial samples extracted from their archaeological site/s. If not viable, then the next best thing is to comb through the literature and find a study that has done this for the relevant period and region. Calib (http://calib.org/marine/) is a useful starting point, keeping in mind that this database is not exhaustive. The last option would be just to go to Calib and do a weighted average for the 5 or 10 nearby dR values. The key thing, for publication, is for the researcher to clearly describe what dR value they used to correct their marine dates and where they got the value from. Another recommendation is to carry out sensitivity testing, checking how different dR values (including no dR correction) change the results and their final interpretation of the archaeological evidence. If the dR values vary slightly or overlap due to large errors, it might not make much difference. If this is the case, the sensitive testing performed would afford their conclusions greater confidence.
+      	
+      Using Calib I entered the details of Tholos of Montelirio, Seville (long: -6.058888888888888 Lat: 37.409444444444446). I took all 10 points from Calib and it gave me a deltaR of 11 +/- 170.
+      
+      I have used Shell Delta_R correction  -108 ± 31 14C yr (Martins & Soares 2013), even if in Garcia Sanjuan et al 2018 a different Delta_R was used (180 ± 66 BP), as -108 ± 31 yields more coherent results.
     hidden: false
     dataset: Shell-beads_ALL_Results
     page-size: 30
@@ -135,7 +142,8 @@ views:
             heatmap:
               scale: linear
               range: ["white", "blue"]
-  Montelirio tholos:
+  "Radiocarbon dates (Montelirio tholos)":
+    desc: "Full data of all radiocarbon dates available for Montelirio (marine shell and human bone)"
     hidden: false
     dataset: Montelirio tholos
     page-size: 30
@@ -382,7 +390,8 @@ views:
             heatmap:
               scale: linear
               range: ["white", "blue"]
-  adp1917_data_s3:
+  "Morphometric data (Structure 10.042-10.049)":
+    desc: "Morphometric data for Structure 10.042-10.049"
     hidden: false
     dataset: adp1917_data_s3
     page-size: 30
@@ -417,7 +426,8 @@ views:
               range: ["white", "blue"]
         "SAMPLE #":
           display-mode: normal
-  adp1917_data_s2:
+  "Morphometric data (small chamber)":
+    desc: "Morphometric data for Montelirio Small Chamber"
     hidden: false
     dataset: adp1917_data_s2
     page-size: 30
@@ -454,7 +464,8 @@ views:
             heatmap:
               scale: linear
               range: ["white", "blue"]
-  PP4-Montelirio:
+  "Radiocarbon dates (Structure 10.042-10.049)":
+    desc: "Full data of all radiocarbon dates available for Structure 10.042-10.049 (marine shell and human bone)"
     hidden: false
     dataset: PP4-Montelirio
     page-size: 30
