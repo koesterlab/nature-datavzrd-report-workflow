@@ -1,6 +1,5 @@
 ---
 name: "Moscot Supplementary Tables (CC BY 4.0)"
-default-view: "Suppl. Tab. 1a"
 datasets:
   Suppl. Tab. 9:
     path: bioinformatics/Suppl. Tab. 9.csv
