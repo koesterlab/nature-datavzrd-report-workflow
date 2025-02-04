@@ -58,7 +58,7 @@ def main():
     """
     Main function to define directory and process files.
     """
-    input_dir = "../bioinformatics"  # Replace with your actual directory
+    input_dir = "../anthropology"  # Replace with your actual directory
     if os.path.isdir(input_dir):
         process_csv_files_in_directory(input_dir)
     else:
