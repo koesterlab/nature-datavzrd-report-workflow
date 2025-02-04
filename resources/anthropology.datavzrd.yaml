@@ -114,6 +114,9 @@ views:
           display-mode: normal
         site:
           display-mode: normal
+          link-to-url:
+            maps:
+              url: "https://www.google.com/maps/search/?api=1&query={value}"
         region:
           display-mode: hidden
         species:
