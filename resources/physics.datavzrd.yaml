@@ -25,6 +25,10 @@ datasets:
     separator: ;
     headers: 1
     offer-excel: false
+    links:
+      S03I:
+        column: Pool
+        table-row: "S03I/Pool"
   2024ea003854-sup-0002-table si-s01:
     path: physics/2024ea003854-sup-0002-table si-s01.csv
     separator: ;
@@ -40,6 +44,10 @@ datasets:
     separator: ;
     headers: 1
     offer-excel: false
+    links:
+      S03P:
+        column: Pool
+        table-row: "S03P/Pool"
 max-in-memory-rows: 20000
 views:
   S03I:
@@ -74,13 +82,6 @@ views:
               range: ["white", "blue"]
         Pool:
           display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
         S Pole:
           display-mode: normal
           plot:
@@ -168,7 +169,7 @@ views:
   S04P:
     desc: "This table shows the matrix that collects the results of equations 1 and 2 (tab P) described in the methods section, for the population of hollows contained within craters. This dataset also includes the results of the above equations by taking into account parameters such as degradation classes and geological units (names reported in the headers correspond to the ones used in Matrix 2 which are taken from geological mapping literature. The full literature list can be found in the main text in the methods section)."
     dataset: P-S04Tabelle 1
-    page-size: 20
+    page-size: 25
     render-table:
       columns:
         sp:
@@ -346,15 +347,9 @@ views:
               scale: linear
               range: ["white", "blue"]
         "Unnamed: 0":
-
+          label: ID
           display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
+          custom: "function bold(value) {return '<b>' + value + '</b>'}"
         CrU c1:
           display-mode: normal
           plot:
@@ -412,7 +407,7 @@ views:
   S04I:
     desc: "This table shows the matrix that collects the results of equation 3 (tab I), described in the methods section, for the population of hollows contained within craters. This dataset also includes the results of the above equations by taking into account parameters such as degradation classes and geological units (names reported in the headers correspond to the ones used in Matrix 2 which are taken from geological mapping literature. The full literature list can be found in the main text in the methods section)."
     dataset: I-S04Tabelle 1
-    page-size: 20
+    page-size: 25
     render-table:
       columns:
         S Pole:
@@ -440,18 +435,11 @@ views:
               scale: linear
               range: ["white", "blue"]
         Crater:
-
           display-mode: normal
         "Unnamed: 0":
-
+          label: ID
           display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
+          custom: "function bold(value) {return '<b>' + value + '</b>'}"
         sp:
           display-mode: normal
           plot:
@@ -652,11 +640,7 @@ views:
     render-table:
       columns:
         Progressive_ID:
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              range: ["white", "blue"]
+          display-mode: hidden
         LRM_Klima:
           spell:
             url: v1.2.2/logic/boolean
@@ -846,15 +830,7 @@ views:
               scale: linear
               range: ["white", "blue"]
         Pool:
-
           display-mode: normal
-          plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
-              color-scheme: category20
-              range: []
-              aux-domain-columns: ~
         Pits:
           display-mode: normal
           plot:
@@ -940,39 +916,36 @@ views:
     render-table:
       columns:
         c2:
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              range: ["white", "blue"]
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
         c1.1:
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              range: ["white", "blue"]
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
         bip:
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              range: ["white", "blue"]
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
         Contact Unit:
-
           display-mode: normal
           plot:
-            heatmap:
-              scale: ordinal
-              clamp: false
+            pills:
               color-scheme: category20
-              range: []
-              aux-domain-columns: ~
+              separator: ","
+              domain: [icp, imp, c1, c2, "c2 (icp)", "cfh (c1)", "", sp, "cfs (c3)", "c1 (icp)", c3, "cfs (c2)", "c3 (icp)", cre, NF, bip, CMF, spc, OF, "c2 (sp)", "cfh (c2)", spn, "cfh (c3)", "cfs (c1)"]
         "2":
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              range: ["white", "blue"]
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
         X:
           display-mode: normal
           plot:
@@ -986,11 +959,11 @@ views:
               scale: linear
               range: ["white", "blue"]
         imp:
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              range: ["white", "blue"]
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
         _max:
           display-mode: normal
           plot:
@@ -998,11 +971,11 @@ views:
               scale: linear
               range: ["white", "blue"]
         icp:
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              range: ["white", "blue"]
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
         _min:
           display-mode: normal
           plot:
@@ -1010,23 +983,23 @@ views:
               scale: linear
               range: ["white", "blue"]
         "5":
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              range: ["white", "blue"]
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
         cfh (c3):
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              range: ["white", "blue"]
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
         c3:
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              range: ["white", "blue"]
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
         Delta elev:
           display-mode: normal
           plot:
@@ -1034,37 +1007,37 @@ views:
               scale: linear
               range: ["white", "blue"]
         "3":
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              range: ["white", "blue"]
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
         cfh (c1):
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              range: ["white", "blue"]
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
         "1":
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              range: ["white", "blue"]
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
         cfs (c2):
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              range: ["white", "blue"]
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
         id:
           display-mode: normal
         CMF:
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              range: ["white", "blue"]
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
         Diameter:
           display-mode: normal
           plot:
@@ -1072,45 +1045,43 @@ views:
               scale: linear
               range: ["white", "blue"]
         cfs (c3):
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              range: ["white", "blue"]
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
         cfh (c2):
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              range: ["white", "blue"]
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
         NF:
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              range: ["white", "blue"]
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
         Crater Unit:
-
           display-mode: normal
           plot:
             heatmap:
               scale: ordinal
               clamp: false
               color-scheme: category20
-              range: []
-              aux-domain-columns: ~
+              domain: [ icp, imp, c1, c2, "c2 (icp)", "cfh (c1)", "", sp, "cfs (c3)", "c1 (icp)", c3, "cfs (c2)", "c3 (icp)", cre, NF, bip, CMF, spc, OF, "c2 (sp)", "cfh (c2)", spn, "cfh (c3)", "cfs (c1)" ]
         c2.1:
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              range: ["white", "blue"]
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
         OF:
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              range: ["white", "blue"]
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
         Y:
           display-mode: normal
           plot:
@@ -1118,39 +1089,39 @@ views:
               scale: linear
               range: ["white", "blue"]
         cre:
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              range: ["white", "blue"]
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
         c1:
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              range: ["white", "blue"]
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
         cfs (c1):
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              range: ["white", "blue"]
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
         c3.1:
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              range: ["white", "blue"]
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
         "4":
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              range: ["white", "blue"]
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
         sp:
-          display-mode: normal
-          plot:
-            heatmap:
-              scale: linear
-              range: ["white", "blue"]
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
 webview-controls: false
