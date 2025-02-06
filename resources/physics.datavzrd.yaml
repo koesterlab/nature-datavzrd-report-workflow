@@ -1,0 +1,1156 @@
+---
+name: "Hollows on Mercury: A Comprehensive Analysis of Spatial Patterns and Their Relationship to Craters and Structures"
+datasets:
+  I-S04Tabelle 1:
+    path: physics/I-S04Tabelle 1.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  2024ea003854-sup-0003-table si-s02:
+    path: physics/2024ea003854-sup-0003-table si-s02.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+    links:
+      S01:
+        column: id
+        table-row: "S01/Thomas_ID"
+  P-S04Tabelle 1:
+    path: physics/P-S04Tabelle 1.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  P-S03Tabelle 1:
+    path: physics/P-S03Tabelle 1.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+  2024ea003854-sup-0002-table si-s01:
+    path: physics/2024ea003854-sup-0002-table si-s01.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+    links:
+      S02:
+        column: Thomas_ID
+        table-row: "S02/id"
+        optional: true
+  I-S03Tabelle 1:
+    path: physics/I-S03Tabelle 1.csv
+    separator: ;
+    headers: 1
+    offer-excel: false
+max-in-memory-rows: 20000
+views:
+  S03I:
+    desc: "This table shows the matrix that collects the results of equation 3 (tab I), described in the methods section, for the entire population of hollows. The data herein reported are the machine-readable version of the data reported in Table 2 in the main text."
+    dataset: I-S03Tabelle 1
+    page-size: 20
+    render-table:
+      columns:
+        "Infill ":
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        LRM_Klima:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        C_Ejecta:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        C_Peak:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Pool:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+        S Pole:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        C_Floor:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Putative:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Tectonics:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Crater:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        C_Walls:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        LRM_blue:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        HP 0:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        HP 180:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        S Hemi:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Pits:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        N Hemi:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Plains:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        N Pole:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+  S04P:
+    desc: "This table shows the matrix that collects the results of equations 1 and 2 (tab P) described in the methods section, for the population of hollows contained within craters. This dataset also includes the results of the above equations by taking into account parameters such as degradation classes and geological units (names reported in the headers correspond to the ones used in Matrix 2 which are taken from geological mapping literature. The full literature list can be found in the main text in the methods section)."
+    dataset: P-S04Tabelle 1
+    page-size: 20
+    render-table:
+      columns:
+        sp:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        cfh (c1):
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        LRM_blue:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        DC3:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Pits:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        HP 180:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        N Hemi:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        DC5:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        cfs (c3):
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        bip:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        S Hemi:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        C_Ejecta:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        DC2:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        C_Peak:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        cfs (c1):
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        imp:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        HP 0:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        N Pole:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        cfh (c3):
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        CrU c2:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Plains:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        DC1:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        S Pole:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        cfs (c2):
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        CoU c3:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        CoU c1:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Crater:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        icp:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        LRM_Klima:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        "Unnamed: 0":
+
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+        CrU c1:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        DC4:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        C_Walls:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        CoU c2:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        cre:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        C_Floor:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        cfh (c2):
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Tectonics:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        CrU c3:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+  S04I:
+    desc: "This table shows the matrix that collects the results of equation 3 (tab I), described in the methods section, for the population of hollows contained within craters. This dataset also includes the results of the above equations by taking into account parameters such as degradation classes and geological units (names reported in the headers correspond to the ones used in Matrix 2 which are taken from geological mapping literature. The full literature list can be found in the main text in the methods section)."
+    dataset: I-S04Tabelle 1
+    page-size: 20
+    render-table:
+      columns:
+        S Pole:
+
+          display-mode: normal
+        HP 180:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        DC3:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Plains:
+
+          display-mode: normal
+        cfh (c3):
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Crater:
+
+          display-mode: normal
+        "Unnamed: 0":
+
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+        sp:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        C_Peak:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        cfh (c1):
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        DC1:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        cre:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        C_Ejecta:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        HP 0:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        C_Floor:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        cfs (c1):
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        bip:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        DC5:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        cfs (c2):
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        N Hemi:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        CrU c1:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        CoU c1:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        C_Walls:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        DC4:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        cfh (c2):
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        LRM_blue:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        CoU c2:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Pits:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        LRM_Klima:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        imp:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        DC2:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        N Pole:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        CrU c3:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        icp:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        cfs (c3):
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        CoU c3:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Tectonics:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        CrU c2:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        S Hemi:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+  S01:
+    desc: |
+      This table shows the Boolean matrix in which all the data collected for each distinctive trait (header descriptions are reported in Table 1 in the main text) for each hollow location are collected. In Matrix 1 and 2, the ID progressive numbering used in Thomas et al., (2014a) have been maintained. When a new location was added to the list we used the same Id number of the closest identified location by Thomas et al., (2014a). For further clarity an univocal new progressive numbering has been assigned to each location. In addition, (i) the coordinates of the centroid of the mapped polygon for each location (latitude and longitude are provided in decimal degrees) and (ii) the automatically extracted minimum, maximum and mean elevations are given for each polygon.
+    dataset: 2024ea003854-sup-0002-table si-s01
+    page-size: 20
+    render-table:
+      columns:
+        Progressive_ID:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        LRM_Klima:
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
+        _EL_median:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        S Hemi:
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
+        Pits:
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
+        LRM_blue:
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
+        HP 0:
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
+        C_Ejecta:
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
+        C_Peak:
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
+        N Hemi:
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
+        HP 180:
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
+        Plains:
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
+        _EL_max:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        C_Walls:
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
+        C_Floor:
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
+        Crater:
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
+        Infill:
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
+        Tectonics:
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
+        N Pole:
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
+        Thomas_ID:
+          display-mode: normal
+        S Pole:
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
+        _EL_mean:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Y:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        X:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        _EL_min:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Putative:
+          spell:
+            url: v1.2.2/logic/boolean
+            with:
+              true_value: "1"
+              false_value: "0"
+  S03P:
+    desc: "This table shows the matrix that collects the results of equations 1 and 2 (tab P) described in the methods section, for the entire population of hollows. The data herein reported are the machine-readable version of the data reported in Table 2 in the main text."
+    dataset: P-S03Tabelle 1
+    page-size: 20
+    render-table:
+      columns:
+        N Pole:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Tectonics:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Plains:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        N Hemi:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        C_Walls:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        C_Peak:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Pool:
+
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+        Pits:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        LRM_blue:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        HP 0:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        S Hemi:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        LRM_Klima:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Crater:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Putative:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        HP 180:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Tot Pool:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        S Pole:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        C_Floor:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        C_Ejecta:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Infill:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+  S02:
+    desc: "This table shows the Boolean matrix in which the occurrences of degradation classes and geologic units are collected for all those hollows contained within craters. These data are reported both as single column cumulative data (e.g., for each location, when available, the degradation class code is reported) and as Boolean matrix. When data are not available for the given location the cells have been left empty."
+    dataset: 2024ea003854-sup-0003-table si-s02
+    page-size: 20
+    render-table:
+      columns:
+        c2:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        c1.1:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        bip:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Contact Unit:
+
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+        "2":
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        X:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Degrad_class:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        imp:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        _max:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        icp:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        _min:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        "5":
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        cfh (c3):
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        c3:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Delta elev:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        "3":
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        cfh (c1):
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        "1":
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        cfs (c2):
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        id:
+          display-mode: normal
+        CMF:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Diameter:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        cfs (c3):
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        cfh (c2):
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        NF:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Crater Unit:
+
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+        c2.1:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        OF:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Y:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        cre:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        c1:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        cfs (c1):
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        c3.1:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        "4":
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        sp:
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+webview-controls: false
