@@ -57,9 +57,9 @@ max-in-memory-rows: 20000
 views:
   Landscape:
     desc: |
-      ### Choice situation for Landscape
-      
+      Choice situation for Landscape
       Landscape = percentage of cover
+      <small>Alayon-Gamboa, J. A. "Estrategias silvopastoriles para mitigar efectos del cambio climático en sistemas ganaderos del sur de México." Agro productividad 9.9 (2016). [DOI: 10.1002/pan3.10739](https://doi.org/10.1002/pan3.10739)</small>
     dataset: Landscape
     page-size: 25
     render-table:
@@ -100,9 +100,9 @@ views:
           display-mode: hidden
   Willingness to invest ($):
     desc: |
-      ### Choice situation for Willingness to invest ($)
-      
-      Willingness to invest = Willingness to invest in mitigation measures
+      Choice situation for Willingness to invest ($)
+      Willingness to invest = Willingness to invest in mitigation measures 
+      <small>Alayon-Gamboa, J. A. "Estrategias silvopastoriles para mitigar efectos del cambio climático en sistemas ganaderos del sur de México." Agro productividad 9.9 (2016). [DOI: 10.1002/pan3.10739](https://doi.org/10.1002/pan3.10739)</small>
     dataset: Willingness to invest ($)
     page-size: 25
     render-table:
@@ -142,7 +142,9 @@ views:
               scale: linear
               range: ["white", "blue"]
   Type of livestock:
-    desc: "### Choice situation for Type of livestock"
+    desc: |
+      Choice situation for Type of livestock
+      <small>Alayon-Gamboa, J. A. "Estrategias silvopastoriles para mitigar efectos del cambio climático en sistemas ganaderos del sur de México." Agro productividad 9.9 (2016). [DOI: 10.1002/pan3.10739](https://doi.org/10.1002/pan3.10739)</small>
     dataset: Type of livestock
     page-size: 25
     render-table:
@@ -183,7 +185,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
   Number of jaguars:
-    desc: "### Choice situation for Number of jaguars"
+    desc: |
+      Choice situation for Number of jaguars
+      <small>Alayon-Gamboa, J. A. "Estrategias silvopastoriles para mitigar efectos del cambio climático en sistemas ganaderos del sur de México." Agro productividad 9.9 (2016). [DOI: 10.1002/pan3.10739](https://doi.org/10.1002/pan3.10739)</small>
     dataset: Number of jaguars
     page-size: 25
     render-table:
