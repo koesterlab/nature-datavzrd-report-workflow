@@ -34,7 +34,9 @@ datasets:
 max-in-memory-rows: 20000
 views:
   "Morphometric data (large chamber)":
-    desc: "Morphometric data for Montelirio Large Chamber"
+    desc: |
+      Morphometric data for Montelirio Large Chamber
+      <small>Sanjuán, Leonardo García, et al. "A multi-analytical study of the Montelirio beaded attires: Marine resources, sumptuary crafts, and female power in copper age Iberia." Science Advances 11.5 (2025): eadp1917. [DOI: 10.1126/sciadv.adp1917](https://doi.org/10.1126/sciadv.adp1917)</small>
     hidden: false
     dataset: adp1917_data_s1
     page-size: 30
@@ -78,6 +80,8 @@ views:
       Using Calib I entered the details of Tholos of Montelirio, Seville (long: -6.058888888888888 Lat: 37.409444444444446). I took all 10 points from Calib and it gave me a deltaR of 11 +/- 170.
       
       I have used Shell Delta_R correction  -108 ± 31 14C yr (Martins & Soares 2013), even if in Garcia Sanjuan et al 2018 a different Delta_R was used (180 ± 66 BP), as -108 ± 31 yields more coherent results.
+      
+      <small>Sanjuán, Leonardo García, et al. "A multi-analytical study of the Montelirio beaded attires: Marine resources, sumptuary crafts, and female power in copper age Iberia." Science Advances 11.5 (2025): eadp1917. [DOI: 10.1126/sciadv.adp1917](https://doi.org/10.1126/sciadv.adp1917)</small>
     hidden: false
     dataset: Shell-beads_ALL_Results
     page-size: 30
@@ -146,7 +150,9 @@ views:
               scale: linear
               range: ["white", "blue"]
   "Radiocarbon dates (Montelirio tholos)":
-    desc: "Full data of all radiocarbon dates available for Montelirio (marine shell and human bone)"
+    desc: |
+      Full data of all radiocarbon dates available for Montelirio (marine shell and human bone)
+      <small>Sanjuán, Leonardo García, et al. "A multi-analytical study of the Montelirio beaded attires: Marine resources, sumptuary crafts, and female power in copper age Iberia." Science Advances 11.5 (2025): eadp1917. [DOI: 10.1126/sciadv.adp1917](https://doi.org/10.1126/sciadv.adp1917)</small>
     hidden: false
     dataset: Montelirio tholos
     page-size: 30
@@ -394,7 +400,9 @@ views:
               scale: linear
               range: ["white", "blue"]
   "Morphometric data (Structure 10.042-10.049)":
-    desc: "Morphometric data for Structure 10.042-10.049"
+    desc: |
+      Morphometric data for Structure 10.042-10.049
+      <small>Sanjuán, Leonardo García, et al. "A multi-analytical study of the Montelirio beaded attires: Marine resources, sumptuary crafts, and female power in copper age Iberia." Science Advances 11.5 (2025): eadp1917. [DOI: 10.1126/sciadv.adp1917](https://doi.org/10.1126/sciadv.adp1917)</small>
     hidden: false
     dataset: adp1917_data_s3
     page-size: 30
@@ -430,7 +438,9 @@ views:
         "SAMPLE #":
           display-mode: normal
   "Morphometric data (small chamber)":
-    desc: "Morphometric data for Montelirio Small Chamber"
+    desc: |
+      Morphometric data for Montelirio Small Chamber
+      <small>Sanjuán, Leonardo García, et al. "A multi-analytical study of the Montelirio beaded attires: Marine resources, sumptuary crafts, and female power in copper age Iberia." Science Advances 11.5 (2025): eadp1917. [DOI: 10.1126/sciadv.adp1917](https://doi.org/10.1126/sciadv.adp1917)</small>
     hidden: false
     dataset: adp1917_data_s2
     page-size: 30
@@ -468,7 +478,9 @@ views:
               scale: linear
               range: ["white", "blue"]
   "Radiocarbon dates (Structure 10.042-10.049)":
-    desc: "Full data of all radiocarbon dates available for Structure 10.042-10.049 (marine shell and human bone)"
+    desc: |
+      Full data of all radiocarbon dates available for Structure 10.042-10.049 (marine shell and human bone)
+      <small>Sanjuán, Leonardo García, et al. "A multi-analytical study of the Montelirio beaded attires: Marine resources, sumptuary crafts, and female power in copper age Iberia." Science Advances 11.5 (2025): eadp1917. [DOI: 10.1126/sciadv.adp1917](https://doi.org/10.1126/sciadv.adp1917)</small>
     hidden: false
     dataset: PP4-Montelirio
     page-size: 30

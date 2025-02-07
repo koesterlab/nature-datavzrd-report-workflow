@@ -355,7 +355,9 @@ datasets:
 max-in-memory-rows: 20000
 views:
   Suppl. Tab. 9:
-    desc: "Driver genes of fibroblasts identified with moscot.spatiotemporal"
+    desc: |
+      Driver genes of fibroblasts identified with moscot.spatiotemporal
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 9
     page-size: 20
@@ -428,7 +430,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
   Suppl. Tab. 8:
-    desc: "Driver genes of neuronal development identified with moscot.spatiotemporal"
+    desc: |
+      Driver genes of neuronal development identified with moscot.spatiotemporal"
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 8
     page-size: 20
@@ -492,7 +496,9 @@ views:
         "regex('Unnamed.*')":
           display-mode: hidden
   Suppl. Tab. 11:
-    desc: "Marker peaks of epsilon progenitors identified with moscot in pancreatic endocrinogenesis"
+    desc: |
+      Marker peaks of epsilon progenitors identified with moscot in pancreatic endocrinogenesis
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 11
     page-size: 20
@@ -539,7 +545,9 @@ views:
         Marker peaks epsilon progenitors:
           display-mode: normal
   Suppl. Tab. 3b-1:
-    desc: "Parameter selection for moscot.time on embryogenesis atlas"
+    desc: |
+      Parameter selection for moscot.time on embryogenesis atlas
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 3b-1
     page-size: 20
@@ -596,7 +604,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
   Suppl. Tab. 21:
-    desc: "Driver TFs of delta cells identified with moscot in pancreatic endocrinogenesis"
+    desc: |
+      Driver TFs of delta cells identified with moscot in pancreatic endocrinogenesis
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 21
     page-size: 20
@@ -656,7 +666,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
   Suppl. Tab. 27:
-    desc: "Neurod2 specific targets of Delta cells in pancreatic endocrinogenesis"
+    desc: |
+      Neurod2 specific targets of Delta cells in pancreatic endocrinogenesis
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 27
     page-size: 20
@@ -729,7 +741,9 @@ views:
             igv:
               url: "https://igv.org/app/?genome=mm39&locus={value}"
   Suppl. Tab. 31:
-    desc: "Differentiable motif activity epsilon cells in pancreatic endocrinogenesis"
+    desc: |
+      Differentiable motif activity epsilon cells in pancreatic endocrinogenesis
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 31
     page-size: 20
@@ -782,7 +796,9 @@ views:
   Suppl. Tab. 32:
     hidden: false
     dataset: Suppl. Tab. 32
-    desc: "Differentiable motif activity alpha cells in pancreatic endocrinogenesis"
+    desc: |
+      Differentiable motif activity alpha cells in pancreatic endocrinogenesis
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     page-size: 20
     render-table:
       columns:
@@ -831,7 +847,9 @@ views:
         Differentiable motif activity alpha cells:
           display-mode: hidden
   Suppl. Tab. 29:
-    desc: "Neurod2 cell type specific targets in pancreatic endocrinogenesis"
+    desc: |
+      Neurod2 cell type specific targets in pancreatic endocrinogenesis
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 29
     page-size: 20
@@ -842,7 +860,9 @@ views:
             ensembl:
               url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
   Suppl. Tab. 3a-3:
-    desc: "Parameter selection for moscot.time on embryogenesis atlas"
+    desc: |
+      Parameter selection for moscot.time on embryogenesis atlas
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 3a-3
     page-size: 20
@@ -899,7 +919,9 @@ views:
         "Unnamed: 0":
           display-mode: hidden
   Suppl. Tab. 1c:
-    desc: "Memory and compute time benchmark for moscot.time"
+    desc: |
+      Memory and compute time benchmark for moscot.time
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 1c
     page-size: 20
@@ -950,7 +972,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
   Suppl. Tab. 25:
-    desc: "Neurod2 specific targets of epsilon progenitor cells in pancreatic endocrinogenesis"
+    desc: |
+      Neurod2 specific targets of epsilon progenitor cells in pancreatic endocrinogenesis
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 25
     page-size: 20
@@ -1023,7 +1047,9 @@ views:
         Gene_signature_name:
           display-mode: normal
   Suppl. Tab. 6-1:
-    desc: "Driver and target genes of the liver identified with moscot.spatiotemporal"
+    desc: |
+      Driver and target genes of the liver identified with moscot.spatiotemporal
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 6-1
     page-size: 20
@@ -1087,7 +1113,9 @@ views:
             reference:
               url: "{value}"
   Suppl. Tab. 2:
-    desc: "Curated cell type transitions for mouse embryogenesis atlas"
+    desc: |
+      Curated cell type transitions for mouse embryogenesis atlas
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 2
     page-size: 20
@@ -1118,7 +1146,9 @@ views:
         Cell_type:
           display-mode: normal
   Suppl. Tab. 15:
-    desc: "Driver genes of epsilon progenitors identified with moscot in pancreatic endocrinogenesis"
+    desc: |
+      Driver genes of epsilon progenitors identified with moscot in pancreatic endocrinogenesis
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 15
     page-size: 20
@@ -1178,7 +1208,9 @@ views:
             gene:
               url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
   Suppl. Tab. 7:
-    desc: "Driver genes of the heart identified with moscot.spatiotemporal"
+    desc: |
+      Driver genes of the heart identified with moscot.spatiotemporal
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 7
     page-size: 20
@@ -1238,7 +1270,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
   Suppl. Tab. 3b-2:
-    desc: "Parameter selection for moscot.time on embryogenesis atlas"
+    desc: |
+      Parameter selection for moscot.time on embryogenesis atlas
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 3b-2
     page-size: 20
@@ -1295,7 +1329,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
   Suppl. Tab. 16:
-    desc: "Driver genes of Fev+ delta cells identified with moscot in pancreatic endocrinogenesis"
+    desc: |
+      Driver genes of Fev+ delta cells identified with moscot in pancreatic endocrinogenesis
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 16
     page-size: 20
@@ -1356,7 +1392,9 @@ views:
             ensembl:
               url: "https://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g={value}"
   Suppl. Tab. 4:
-    desc: "Selected marker/driver genes for various cell types in mouse embryogenesis atlas"
+    desc: |
+      Selected marker/driver genes for various cell types in mouse embryogenesis atlas
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 4
     page-size: 20
@@ -1387,7 +1425,9 @@ views:
               true_value: "Yes"
               false_value: "No"
   Suppl. Tab. 3a-1:
-    desc: "Parameter selection for moscot.time on embryogenesis atlas"
+    desc: |
+      Parameter selection for moscot.time on embryogenesis atlas
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 3a-1
     page-size: 20
@@ -1444,7 +1484,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
   Suppl. Tab. 10:
-    desc: "Marker genes used for cell type annotation of pancreatic endocrinologist dataset"
+    desc: |
+      Marker genes used for cell type annotation of pancreatic endocrinologist dataset
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 10
     page-size: 20
@@ -1455,7 +1497,9 @@ views:
         marker genes:
           custom-path: "resources/functions/gene-pills.js"
   Suppl. Tab. 14:
-    desc: "Driver genes of beta cells identified with moscot in pancreatic endocrinogenesis"
+    desc: |
+      Driver genes of beta cells identified with moscot in pancreatic endocrinogenesis
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 14
     page-size: 20
@@ -1515,7 +1559,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
   Suppl. Tab. 20:
-    desc: "Driver TFs of Fev+ delta identified with moscot in pancreatic endocrinogenesis"
+    desc: |
+      Driver TFs of Fev+ delta identified with moscot in pancreatic endocrinogenesis
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 20
     page-size: 20
@@ -1575,7 +1621,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
   Suppl. Tab. 23:
-    desc: "Targets genes and regions of Neurod2 in pancreatic endocrinogenesis​"
+    desc: |
+      Targets genes and regions of Neurod2 in pancreatic endocrinogenesis
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 23
     page-size: 20
@@ -1659,7 +1707,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
   Suppl. Tab. 26:
-    desc: "Neurod2 specific targets of Fev+Delta cells in pancreatic endocrinogenesis"
+    desc: |
+      Neurod2 specific targets of Fev+Delta cells in pancreatic endocrinogenesis
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 26
     page-size: 20
@@ -1732,7 +1782,9 @@ views:
             igv:
               url: "https://igv.org/app/?genome=mm39&locus={value}"
   Suppl. Tab. 19:
-    desc: "Driver TFs of epsilon progenitors identified with moscot in pancreatic endocrinogenesis"
+    desc: |
+      Driver TFs of epsilon progenitors identified with moscot in pancreatic endocrinogenesis
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 19
     page-size: 20
@@ -1794,7 +1846,9 @@ views:
   Suppl. Tab. 33:
     hidden: false
     dataset: Suppl. Tab. 33
-    desc: "Differentiable motif activity beta cells in pancreatic endocrinogenesis"
+    desc: |
+      Differentiable motif activity beta cells in pancreatic endocrinogenesis
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     page-size: 20
     render-table:
       columns:
@@ -1843,7 +1897,9 @@ views:
           display-mode: normal
           custom-path: "resources/functions/tf_name.js"
   Suppl. Tab. 17:
-    desc: "Driver genes of delta cells identified with moscot in pancreatic endocrinogenesis"
+    desc: |
+      Driver genes of delta cells identified with moscot in pancreatic endocrinogenesis
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 17
     page-size: 20
@@ -1903,7 +1959,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
   Suppl. Tab. 3a-4:
-    desc: "Parameter selection for moscot.time on embryogenesis atlas"
+    desc: |
+      Parameter selection for moscot.time on embryogenesis atlas
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 3a-4
     page-size: 20
@@ -1971,7 +2029,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
   Suppl. Tab. 12:
-    desc: "Marker peaks of Fev+ delta identified with moscot in pancreatic endocrinogenesis"
+    desc: |
+      Marker peaks of Fev+ delta identified with moscot in pancreatic endocrinogenesis
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 12
     page-size: 20
@@ -2019,7 +2079,9 @@ views:
         Marker peaks Fev+ Delta:
           display-mode: normal
   Suppl. Tab. 24:
-    desc: "Neurod2 specific targets of endocrine progenitor cells in pancreatic endocrinogenesis"
+    desc: |
+      Neurod2 specific targets of endocrine progenitor cells in pancreatic endocrinogenesis
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 24
     page-size: 20
@@ -2103,7 +2165,9 @@ views:
         Gene_signature_name:
           display-mode: normal
   Suppl. Tab. 22:
-    desc: "Driver TFs of epsilon cells identified with moscot in pancreatic endocrinogenesis"
+    desc: |
+      Driver TFs of epsilon cells identified with moscot in pancreatic endocrinogenesis
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 22
     page-size: 20
@@ -2163,7 +2227,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
   Suppl. Tab. 1b:
-    desc: "Memory and compute time benchmark for moscot.time"
+    desc: |
+      Memory and compute time benchmark for moscot.time
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 1b
     page-size: 20
@@ -2214,7 +2280,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
   Suppl. Tab. 13:
-    desc: "Driver genes of alpha cells identified with moscot in pancreatic endocrinogenesis"
+    desc: |
+      Driver genes of alpha cells identified with moscot in pancreatic endocrinogenesis
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 13
     page-size: 20
@@ -2274,7 +2342,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
   Suppl. Tab. 18:
-    desc: "Driver genes of epsilon cells identified with moscot in pancreatic endocrinogenesis"
+    desc: |
+      Driver genes of epsilon cells identified with moscot in pancreatic endocrinogenesis
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 18
     page-size: 20
@@ -2334,7 +2404,9 @@ views:
             with:
               significance_threshold: 0.05
   Suppl. Tab. 5:
-    desc: "Curated cell type transitions (spatio-temporal analysis)"
+    desc: |
+      Curated cell type transitions (spatio-temporal analysis)
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 5
     page-size: 20
@@ -2353,7 +2425,9 @@ views:
         "Additional information":
             display-mode: detail
   Suppl. Tab. 28:
-    desc: "Neurod2 specific targets of Epsilon cells in pancreatic endocrinogenesis"
+    desc: |
+      Neurod2 specific targets of Epsilon cells in pancreatic endocrinogenesis
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 28
     page-size: 20
@@ -2426,7 +2500,9 @@ views:
         Gene_signature_name:
           display-mode: normal
   Suppl. Tab. 30:
-    desc: "Differentiable motif activity delta cells in pancreatic endocrinogenesis"
+    desc: |
+      Differentiable motif activity delta cells in pancreatic endocrinogenesis
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 30
     page-size: 20
@@ -2477,7 +2553,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
   Suppl. Tab. 6-2:
-    desc: "Driver and target genes of the liver identified with moscot.spatiotemporal"
+    desc: |
+      Driver and target genes of the liver identified with moscot.spatiotemporal
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 6-2
     page-size: 20
@@ -2541,7 +2619,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
   Suppl. Tab. 3a-2:
-    desc: "Parameter selection for moscot.time on embryogenesis atlas"
+    desc: |
+      Parameter selection for moscot.time on embryogenesis atlas
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 3a-2
     page-size: 20
@@ -2598,7 +2678,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
   Suppl. Tab. 3b-3:
-    desc: "Parameter selection for moscot.time on embryogenesis atlas"
+    desc: |
+      Parameter selection for moscot.time on embryogenesis atlas
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 3b-3
     page-size: 20
@@ -2655,7 +2737,9 @@ views:
         time pair:
           display-mode: normal
   Suppl. Tab. 1a:
-    desc: "Memory and compute time benchmark for moscot.time"
+    desc: |
+      Memory and compute time benchmark for moscot.time
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 1a
     page-size: 20
@@ -2706,7 +2790,9 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
   Suppl. Tab. 3b-4:
-    desc: "Parameter selection for moscot.time on embryogenesis atlas"
+    desc: |
+      Parameter selection for moscot.time on embryogenesis atlas
+      <small>Klein, Dominik, et al. "Mapping cells through time and space with moscot." Nature (2025): 1-11. [DOI: 10.1038/s41586-024-08453-2](https://doi.org/10.1038/s41586-024-08453-2)</small>
     hidden: false
     dataset: Suppl. Tab. 3b-4
     page-size: 20
