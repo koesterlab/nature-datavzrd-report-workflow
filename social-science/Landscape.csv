@@ -1,0 +1,25 @@
+Choice situation;Attribute;Alt A;Alt B;Status quo;Block
+1;Landscape;75;50;50;B4
+2;Landscape;75;50;50;B2
+3;Landscape;75;50;50;B4
+4;Landscape;75;75;50;B3
+5;Landscape;75;75;50;B1
+6;Landscape;75;75;50;B3
+7;Landscape;10;50;50;B4
+8;Landscape;75;50;50;B1
+9;Landscape;50;50;50;B2
+10;Landscape;50;10;50;B1
+11;Landscape;50;10;50;B3
+12;Landscape;25;75;50;B3
+13;Landscape;25;75;50;B2
+14;Landscape;50;50;50;B3
+15;Landscape;25;25;50;B1
+16;Landscape;50;10;50;B3
+17;Landscape;50;50;50;B1
+18;Landscape;10;25;50;B4
+19;Landscape;25;75;50;B2
+20;Landscape;10;75;50;B1
+21;Landscape;50;25;50;B4
+22;Landscape;10;10;50;B2
+23;Landscape;75;75;50;B4
+24;Landscape;50;25;50;B2

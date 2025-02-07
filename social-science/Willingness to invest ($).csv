@@ -1,0 +1,25 @@
+Choice situation;Attribute;Alt A;Alt B;Status quo;Block
+1;Willingness to invest ($);0;208;0 ;B4
+2;Willingness to invest ($);104;0;0 ;B2
+3;Willingness to invest ($);208;834;0 ;B4
+4;Willingness to invest ($);0;208;0 ;B3
+5;Willingness to invest ($);208;104;0 ;B1
+6;Willingness to invest ($);104;834;0 ;B3
+7;Willingness to invest ($);0;104;0 ;B4
+8;Willingness to invest ($);208;0;0 ;B1
+9;Willingness to invest ($);0;208;0 ;B2
+10;Willingness to invest ($);208;0;0 ;B1
+11;Willingness to invest ($);834;834;0 ;B3
+12;Willingness to invest ($);104;834;0 ;B3
+13;Willingness to invest ($);104;834;0;B2
+14;Willingness to invest ($);834;0;0;B3
+15;Willingness to invest ($);104;834;0;B1
+16;Willingness to invest ($);0;0;0;B3
+17;Willingness to invest ($);0;104;0;B1
+18;Willingness to invest ($);834;208;0;B4
+19;Willingness to invest ($);834;208;0;B2
+20;Willingness to invest ($);834;104;0;B1
+21;Willingness to invest ($);834;104;0;B4
+22;Willingness to invest ($);0;208;0;B2
+23;Willingness to invest ($);104;0;0;B4
+24;Willingness to invest ($);0;834;0;B2

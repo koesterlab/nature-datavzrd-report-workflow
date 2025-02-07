@@ -1,0 +1,25 @@
+Choice situation;Attribute;Alt A;Alt B;Status quo;Block
+1;Type of livestock;Intensive;Semi extensive;Semi extensive;B4
+2;Type of livestock;Semi extensive;Silvopastoral;Semi extensive;B2
+3;Type of livestock;Extensive;Intensive;Semi extensive;B4
+4;Type of livestock;Extensive;Silvopastoral;Semi extensive;B3
+5;Type of livestock;Silvopastoral  livestock;Extensive;Semi extensive;B1
+6;Type of livestock;Intensive;Extensive;Semi extensive;B3
+7;Type of livestock;Semi extensive;Semi extensive;Semi extensive;B4
+8;Type of livestock;Intensive;Silvopastoral;Semi extensive;B1
+9;Type of livestock;Silvopastoral  livestock;Semi extensive;Semi extensive;B2
+10;Type of livestock;Semi extensive;Intensive;Semi extensive;B1
+11;Type of livestock;Semi extensive;Semi extensive;Semi extensive;B3
+12;Type of livestock;Semi extensive;Silvopastoral ;Semi extensive;B3
+13;Type of livestock;Semi extensive;Intensive;Semi extensive;B2
+14;Type of livestock;Semi extensive;Intensive;Semi extensive;B3
+15;Type of livestock;Semi extensive;Semi extensive;Semi extensive;B1
+16;Type of livestock;Silvopastoral  ;Semi extensive;Semi extensive;B3
+17;Type of livestock;Silvopastoral ;Semi extensive;Semi extensive;B1
+18;Type of livestock;Intensive;Semi extensive;Semi extensive;B4
+19;Type of livestock;Semi extensive;Extensive;Semi extensive;B2
+20;Type of livestock;Semi extensive;Silvopastoral ;Semi extensive;B1
+21;Type of livestock;Semi extensive;Semi extensive;Semi extensive;B4
+22;Type of livestock;Semi extensive;Semi extensive;Semi extensive;B2
+23;Type of livestock;Silvopastoral  livestock;Intensive;Semi extensive;B4
+24;Type of livestock;Semi extensive;Semi extensive;Semi extensive;B2

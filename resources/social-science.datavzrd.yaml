@@ -1,0 +1,225 @@
+---
+name: "Rancher viewpoint diversity in human–wildlife coexistence management: The case of jaguar–livestock interaction in the region of Calakmul, Mexico"
+datasets:
+  Willingness to invest ($):
+    path: social-science/Willingness to invest ($).csv
+    separator: ;
+    links:
+      Type of livestock:
+        column: Choice situation
+        table-row: "Type of livestock/Choice situation"
+      Number of jaguars:
+        column: Choice situation
+        table-row: "Number of jaguars/Choice situation"
+      Landscape:
+        column: Choice situation
+        table-row: "Landscape/Choice situation"
+  Type of livestock:
+    path: social-science/Type of livestock.csv
+    separator: ;
+    links:
+      Willingness to invest ($):
+        column: Choice situation
+        table-row: "Willingness to invest ($)/Choice situation"
+      Number of jaguars:
+        column: Choice situation
+        table-row: "Number of jaguars/Choice situation"
+      Landscape:
+        column: Choice situation
+        table-row: "Landscape/Choice situation"
+  Number of jaguars:
+    path: social-science/Number of jaguars.csv
+    separator: ;
+    links:
+      Willingness to invest ($):
+        column: Choice situation
+        table-row: "Willingness to invest ($)/Choice situation"
+      Type of livestock:
+        column: Choice situation
+        table-row: "Type of livestock/Choice situation"
+      Landscape:
+        column: Choice situation
+        table-row: "Landscape/Choice situation"
+  Landscape:
+    path: social-science/Landscape.csv
+    separator: ;
+    links:
+      Willingness to invest ($):
+        column: Choice situation
+        table-row: "Willingness to invest ($)/Choice situation"
+      Type of livestock:
+        column: Choice situation
+        table-row: "Type of livestock/Choice situation"
+      Number of jaguars:
+        column: Choice situation
+        table-row: "Number of jaguars/Choice situation"
+max-in-memory-rows: 20000
+views:
+  Landscape:
+    desc: |
+      ## Choice situation for Landscape
+      
+      Landscape = percentage of cover
+    dataset: Landscape
+    page-size: 25
+    render-table:
+      columns:
+        Status quo:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              domain: [0, 50]
+              range: ["white", "blue"]
+        Alt A:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Choice situation:
+          display-mode: normal
+        Alt B:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Block:
+          plot:
+            heatmap:
+              scale: ordinal
+              color-scheme: category20
+        Attribute:
+          display-mode: hidden
+  Willingness to invest ($):
+    desc: |
+      ## Choice situation for Willingness to invest ($)
+      
+      Willingness to invest = Willingness to invest in mitigation measures
+    dataset: Willingness to invest ($)
+    page-size: 25
+    render-table:
+      columns:
+        Block:
+          plot:
+            heatmap:
+              scale: ordinal
+              color-scheme: category20
+        Status quo:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              domain: [0, 50]
+              range: ["white", "blue"]
+        Alt A:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Attribute:
+          display-mode: hidden
+        Choice situation:
+          display-mode: normal
+        Alt B:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+  Type of livestock:
+    desc: "## Choice situation for Type of livestock"
+    dataset: Type of livestock
+    page-size: 25
+    render-table:
+      columns:
+        Status quo:
+          display-mode: normal
+        Alt A:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+        Block:
+          plot:
+            heatmap:
+              scale: ordinal
+              color-scheme: category20
+        Choice situation:
+          display-mode: normal
+        Attribute:
+          display-mode: hidden
+        Alt B:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: ordinal
+              clamp: false
+              color-scheme: category20
+              range: []
+              aux-domain-columns: ~
+          plot-view-legend: false
+  Number of jaguars:
+    desc: "## Choice situation for Number of jaguars"
+    dataset: Number of jaguars
+    page-size: 25
+    render-table:
+      columns:
+        Attribute:
+          display-mode: hidden
+        Choice situation:
+          display-mode: normal
+        Alt B:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+        Block:
+          plot:
+            heatmap:
+              scale: ordinal
+              color-scheme: category20
+        Status quo:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              domain: [0, 50]
+              range: ["white", "blue"]
+        Alt A:
+          optional: false
+          precision: 2
+          display-mode: normal
+          plot:
+            heatmap:
+              scale: linear
+              range: ["white", "blue"]
+webview-controls: false
