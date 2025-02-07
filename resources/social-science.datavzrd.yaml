@@ -57,7 +57,7 @@ max-in-memory-rows: 20000
 views:
   Landscape:
     desc: |
-      ## Choice situation for Landscape
+      ### Choice situation for Landscape
       
       Landscape = percentage of cover
     dataset: Landscape
@@ -100,7 +100,7 @@ views:
           display-mode: hidden
   Willingness to invest ($):
     desc: |
-      ## Choice situation for Willingness to invest ($)
+      ### Choice situation for Willingness to invest ($)
       
       Willingness to invest = Willingness to invest in mitigation measures
     dataset: Willingness to invest ($)
@@ -142,7 +142,7 @@ views:
               scale: linear
               range: ["white", "blue"]
   Type of livestock:
-    desc: "## Choice situation for Type of livestock"
+    desc: "### Choice situation for Type of livestock"
     dataset: Type of livestock
     page-size: 25
     render-table:
@@ -183,7 +183,7 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
   Number of jaguars:
-    desc: "## Choice situation for Number of jaguars"
+    desc: "### Choice situation for Number of jaguars"
     dataset: Number of jaguars
     page-size: 25
     render-table:
