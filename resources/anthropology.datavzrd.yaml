@@ -159,16 +159,19 @@ views:
     render-table:
       columns:
         Radiocarbon age (BP) NO correction - date:
+          label: RC_noCorr
           plot:
             heatmap:
               scale: linear
               range: ["white", "blue"]
         Radiocarbon age (BP) NO correction - date_sigma:
+          label: RC_noCorr_sd
           plot:
             heatmap:
               scale: linear
               range: ["white", "blue"]
         Radiocarbon age (BP) - date_sigma:
+          label: RC_Corr_sd
           plot:
             heatmap:
               scale: linear
@@ -267,6 +270,7 @@ views:
             scholar:
               url: "https://scholar.google.com/scholar?q={value}"
         "Calibrated. Shell Delta_R correction  -108 ± 31 14C yr (Martins & Soares 2013) - 95,4 %":
+          label: Calib_95
           display-mode: normal
         Laboratory Number:
           display-mode: normal
@@ -285,6 +289,7 @@ views:
         Context:
           display-mode: normal
         "Calibrated. Shell Delta_R correction  -108 ± 31 14C yr (Martins & Soares 2013) - 68,3 %":
+          label: Calib_68
           display-mode: normal
         Location:
           optional: false
@@ -395,6 +400,7 @@ views:
         Identifier:
           display-mode: normal
         Radiocarbon age (BP) - date:
+          label: RC_Corr
           plot:
             heatmap:
               scale: linear
