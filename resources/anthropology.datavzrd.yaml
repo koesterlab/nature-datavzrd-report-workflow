@@ -152,6 +152,15 @@ views:
   "Radiocarbon dates (Montelirio tholos)":
     desc: |
       Full data of all radiocarbon dates available for Montelirio (marine shell and human bone)
+      These are the abbreviations for the column names and their descriptions.
+      
+      - **RC_noCorr** – Radiocarbon age (BP) without correction for reservoir effects.  
+      - **RC_noCorr_sd** – Standard deviation (sigma) of the uncorrected radiocarbon age.  
+      - **RC_Corr** – Radiocarbon age (BP) with correction for reservoir effects.  
+      - **RC_Corr_sd** – Standard deviation (sigma) of the corrected radiocarbon age.  
+      - **Calib_68** – Calibrated age with Shell Delta_R correction (-108 ± 31 14C yr, Martins & Soares 2013) at 68.3% confidence.  
+      - **Calib_95** – Calibrated age with Shell Delta_R correction (-108 ± 31 14C yr, Martins & Soares 2013) at 95.4% confidence.  
+
       <small>Sanjuán, Leonardo García, et al. "A multi-analytical study of the Montelirio beaded attires: Marine resources, sumptuary crafts, and female power in copper age Iberia." Science Advances 11.5 (2025): eadp1917. [DOI: 10.1126/sciadv.adp1917](https://doi.org/10.1126/sciadv.adp1917)</small>
     hidden: false
     dataset: Montelirio tholos
@@ -486,6 +495,15 @@ views:
   "Radiocarbon dates (Structure 10.042-10.049)":
     desc: |
       Full data of all radiocarbon dates available for Structure 10.042-10.049 (marine shell and human bone)
+      These are the abbreviations for the column names and their descriptions.
+      
+      - **RC_noCorr** – Radiocarbon age (BP) without correction for reservoir effects.  
+      - **RC_noCorr_sd** – Standard deviation (sigma) of the uncorrected radiocarbon age.  
+      - **RC_Corr** – Radiocarbon age (BP) with correction for reservoir effects.  
+      - **RC_Corr_sd** – Standard deviation (sigma) of the corrected radiocarbon age.  
+      - **Calib_68** – Calibrated age with Shell Delta_R correction (-108 ± 31 14C yr, Martins & Soares 2013) at 68.3% confidence.  
+      - **Calib_95** – Calibrated age with Shell Delta_R correction (-108 ± 31 14C yr, Martins & Soares 2013) at 95.4% confidence.  
+      
       <small>Sanjuán, Leonardo García, et al. "A multi-analytical study of the Montelirio beaded attires: Marine resources, sumptuary crafts, and female power in copper age Iberia." Science Advances 11.5 (2025): eadp1917. [DOI: 10.1126/sciadv.adp1917](https://doi.org/10.1126/sciadv.adp1917)</small>
     hidden: false
     dataset: PP4-Montelirio
@@ -517,11 +535,13 @@ views:
               aux-domain-columns: ~
           plot-view-legend: false
         Radiocarbon age (BP) NO correction - date:
+          label: RC_noCorr
           plot:
             heatmap:
               scale: linear
               range: ["white", "blue"]
         Radiocarbon age (BP) NO correction - date_sigma:
+          label: RC_noCorr_sd
           plot:
             heatmap:
               scale: linear
@@ -538,13 +558,16 @@ views:
               scale: linear
               range: ["white", "blue"]
         "Calibrated. Shell Delta_R correction  -108 ± 31 14C yr (Martins & Soares 2013) - 95,4 %":
+          label: Calib_95
           display-mode: normal
         Radiocarbon age (BP) - date:
+          label: RC_Corr
           plot:
             heatmap:
               scale: linear
               range: ["white", "blue"]
         "Calibrated. Shell Delta_R correction  -108 ± 31 14C yr (Martins & Soares 2013) - 68,3 %":
+          label: Calib_68
           display-mode: normal
         Identifier:
           display-mode: normal
@@ -638,6 +661,7 @@ views:
                   }
               }
         Radiocarbon age (BP) - date_sigma:
+          label: RC_Corr_sd
           plot:
             heatmap:
               scale: linear
